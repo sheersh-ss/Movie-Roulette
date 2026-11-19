@@ -1,0 +1,2506 @@
+{
+  "source": "https://letterboxd.com/official/list/letterboxds-top-500-films/",
+  "fetched_at": "2026-11-18T23:44:13.100134+00:00",
+  "films": [
+    {
+      "rank": 1,
+      "title": "Harakiri (1962)",
+      "url": "https://letterboxd.com/film/harakiri/"
+    },
+    {
+      "rank": 2,
+      "title": "The Human Condition III: A Soldier's Prayer (1961)",
+      "url": "https://letterboxd.com/film/the-human-condition-iii-a-soldiers-prayer/"
+    },
+    {
+      "rank": 3,
+      "title": "12 Angry Men (1957)",
+      "url": "https://letterboxd.com/film/12-angry-men/"
+    },
+    {
+      "rank": 4,
+      "title": "Come and See (1985)",
+      "url": "https://letterboxd.com/film/come-and-see/"
+    },
+    {
+      "rank": 5,
+      "title": "High and Low (1963)",
+      "url": "https://letterboxd.com/film/high-and-low/"
+    },
+    {
+      "rank": 6,
+      "title": "Seven Samurai (1954)",
+      "url": "https://letterboxd.com/film/seven-samurai/"
+    },
+    {
+      "rank": 7,
+      "title": "The Shawshank Redemption (1994)",
+      "url": "https://letterboxd.com/film/the-shawshank-redemption/"
+    },
+    {
+      "rank": 8,
+      "title": "The Godfather Part II (1974)",
+      "url": "https://letterboxd.com/film/the-godfather-part-ii/"
+    },
+    {
+      "rank": 9,
+      "title": "The Human Condition I: No Greater Love (1959)",
+      "url": "https://letterboxd.com/film/the-human-condition-i-no-greater-love/"
+    },
+    {
+      "rank": 10,
+      "title": "City of God (2002)",
+      "url": "https://letterboxd.com/film/city-of-god/"
+    },
+    {
+      "rank": 11,
+      "title": "The Lord of the Rings: The Return of the King (2003)",
+      "url": "https://letterboxd.com/film/the-lord-of-the-rings-the-return-of-the-king/"
+    },
+    {
+      "rank": 12,
+      "title": "Schindler's List (1993)",
+      "url": "https://letterboxd.com/film/schindlers-list/"
+    },
+    {
+      "rank": 13,
+      "title": "Yi Yi (2000)",
+      "url": "https://letterboxd.com/film/yi-yi/"
+    },
+    {
+      "rank": 14,
+      "title": "Cinema Paradiso (1988)",
+      "url": "https://letterboxd.com/film/cinema-paradiso/"
+    },
+    {
+      "rank": 15,
+      "title": "Ikiru (1952)",
+      "url": "https://letterboxd.com/film/ikiru/"
+    },
+    {
+      "rank": 16,
+      "title": "The Good, the Bad and the Ugly (1966)",
+      "url": "https://letterboxd.com/film/the-good-the-bad-and-the-ugly/"
+    },
+    {
+      "rank": 17,
+      "title": "Parasite (2019)",
+      "url": "https://letterboxd.com/film/parasite-2019/"
+    },
+    {
+      "rank": 18,
+      "title": "The Godfather (1972)",
+      "url": "https://letterboxd.com/film/the-godfather/"
+    },
+    {
+      "rank": 19,
+      "title": "Ran (1985)",
+      "url": "https://letterboxd.com/film/ran/"
+    },
+    {
+      "rank": 20,
+      "title": "La Haine (1995)",
+      "url": "https://letterboxd.com/film/la-haine/"
+    },
+    {
+      "rank": 21,
+      "title": "Le Trou (1960)",
+      "url": "https://letterboxd.com/film/le-trou/"
+    },
+    {
+      "rank": 22,
+      "title": "Autumn Sonata (1978)",
+      "url": "https://letterboxd.com/film/autumn-sonata/"
+    },
+    {
+      "rank": 23,
+      "title": "The Dark Knight (2008)",
+      "url": "https://letterboxd.com/film/the-dark-knight/"
+    },
+    {
+      "rank": 24,
+      "title": "The Human Condition II: Road to Eternity (1959)",
+      "url": "https://letterboxd.com/film/the-human-condition-ii-road-to-eternity/"
+    },
+    {
+      "rank": 25,
+      "title": "A Brighter Summer Day (1991)",
+      "url": "https://letterboxd.com/film/a-brighter-summer-day/"
+    },
+    {
+      "rank": 26,
+      "title": "Grave of the Fireflies (1988)",
+      "url": "https://letterboxd.com/film/grave-of-the-fireflies/"
+    },
+    {
+      "rank": 27,
+      "title": "Neon Genesis Evangelion: The End of Evangelion (1997)",
+      "url": "https://letterboxd.com/film/neon-genesis-evangelion-the-end-of-evangelion/"
+    },
+    {
+      "rank": 28,
+      "title": "The Battle of Algiers (1966)",
+      "url": "https://letterboxd.com/film/the-battle-of-algiers/"
+    },
+    {
+      "rank": 29,
+      "title": "I Am Cuba (1964)",
+      "url": "https://letterboxd.com/film/i-am-cuba/"
+    },
+    {
+      "rank": 30,
+      "title": "The Cranes Are Flying (1957)",
+      "url": "https://letterboxd.com/film/the-cranes-are-flying/"
+    },
+    {
+      "rank": 31,
+      "title": "GoodFellas (1990)",
+      "url": "https://letterboxd.com/film/goodfellas/"
+    },
+    {
+      "rank": 32,
+      "title": "La Bola Negra (2026)",
+      "url": "https://letterboxd.com/film/la-bola-negra/"
+    },
+    {
+      "rank": 33,
+      "title": "Interstellar (2014)",
+      "url": "https://letterboxd.com/film/interstellar/"
+    },
+    {
+      "rank": 34,
+      "title": "There Will Be Blood (2007)",
+      "url": "https://letterboxd.com/film/there-will-be-blood/"
+    },
+    {
+      "rank": 35,
+      "title": "Incendies (2010)",
+      "url": "https://letterboxd.com/film/incendies/"
+    },
+    {
+      "rank": 36,
+      "title": "Woman in the Dunes (1964)",
+      "url": "https://letterboxd.com/film/woman-in-the-dunes/"
+    },
+    {
+      "rank": 37,
+      "title": "It's a Wonderful Life (1946)",
+      "url": "https://letterboxd.com/film/its-a-wonderful-life/"
+    },
+    {
+      "rank": 38,
+      "title": "Paths of Glory (1957)",
+      "url": "https://letterboxd.com/film/paths-of-glory/"
+    },
+    {
+      "rank": 39,
+      "title": "The Lord of the Rings: The Two Towers (2002)",
+      "url": "https://letterboxd.com/film/the-lord-of-the-rings-the-two-towers/"
+    },
+    {
+      "rank": 40,
+      "title": "Club Kid (2026)",
+      "url": "https://letterboxd.com/film/club-kid/"
+    },
+    {
+      "rank": 41,
+      "title": "Andrei Rublev (1966)",
+      "url": "https://letterboxd.com/film/andrei-rublev/"
+    },
+    {
+      "rank": 42,
+      "title": "Sunset Boulevard (1950)",
+      "url": "https://letterboxd.com/film/sunset-boulevard/"
+    },
+    {
+      "rank": 43,
+      "title": "The Ascent (1977)",
+      "url": "https://letterboxd.com/film/the-ascent/"
+    },
+    {
+      "rank": 44,
+      "title": "Apocalypse Now (1979)",
+      "url": "https://letterboxd.com/film/apocalypse-now/"
+    },
+    {
+      "rank": 45,
+      "title": "Spirited Away (2001)",
+      "url": "https://letterboxd.com/film/spirited-away/"
+    },
+    {
+      "rank": 46,
+      "title": "The Apartment (1960)",
+      "url": "https://letterboxd.com/film/the-apartment/"
+    },
+    {
+      "rank": 47,
+      "title": "Portrait of a Lady on Fire (2019)",
+      "url": "https://letterboxd.com/film/portrait-of-a-lady-on-fire/"
+    },
+    {
+      "rank": 48,
+      "title": "Tokyo Story (1953)",
+      "url": "https://letterboxd.com/film/tokyo-story/"
+    },
+    {
+      "rank": 49,
+      "title": "Memories of Murder (2003)",
+      "url": "https://letterboxd.com/film/memories-of-murder/"
+    },
+    {
+      "rank": 50,
+      "title": "Whiplash (2014)",
+      "url": "https://letterboxd.com/film/whiplash-2014/"
+    },
+    {
+      "rank": 51,
+      "title": "Lawrence of Arabia (1962)",
+      "url": "https://letterboxd.com/film/lawrence-of-arabia/"
+    },
+    {
+      "rank": 52,
+      "title": "Swing Girls (2004)",
+      "url": "https://letterboxd.com/film/swing-girls/"
+    },
+    {
+      "rank": 53,
+      "title": "Life Is Beautiful (1997)",
+      "url": "https://letterboxd.com/film/life-is-beautiful/"
+    },
+    {
+      "rank": 54,
+      "title": "Witness for the Prosecution (1957)",
+      "url": "https://letterboxd.com/film/witness-for-the-prosecution-1957/"
+    },
+    {
+      "rank": 55,
+      "title": "Nobody Knows (2004)",
+      "url": "https://letterboxd.com/film/nobody-knows/"
+    },
+    {
+      "rank": 56,
+      "title": "The Passion of Joan of Arc (1928)",
+      "url": "https://letterboxd.com/film/the-passion-of-joan-of-arc/"
+    },
+    {
+      "rank": 57,
+      "title": "Mishima: A Life in Four Chapters (1985)",
+      "url": "https://letterboxd.com/film/mishima-a-life-in-four-chapters/"
+    },
+    {
+      "rank": 58,
+      "title": "Barry Lyndon (1975)",
+      "url": "https://letterboxd.com/film/barry-lyndon/"
+    },
+    {
+      "rank": 59,
+      "title": "The Voice of Hind Rajab (2025)",
+      "url": "https://letterboxd.com/film/the-voice-of-hind-rajab/"
+    },
+    {
+      "rank": 60,
+      "title": "Farewell My Concubine (1993)",
+      "url": "https://letterboxd.com/film/farewell-my-concubine/"
+    },
+    {
+      "rank": 61,
+      "title": "The Red Shoes (1948)",
+      "url": "https://letterboxd.com/film/the-red-shoes/"
+    },
+    {
+      "rank": 62,
+      "title": "The Pianist (2002)",
+      "url": "https://letterboxd.com/film/the-pianist/"
+    },
+    {
+      "rank": 63,
+      "title": "The Empire Strikes Back (1980)",
+      "url": "https://letterboxd.com/film/the-empire-strikes-back/"
+    },
+    {
+      "rank": 64,
+      "title": "Sansho the Bailiff (1954)",
+      "url": "https://letterboxd.com/film/sansho-the-bailiff/"
+    },
+    {
+      "rank": 65,
+      "title": "Close-Up (1990)",
+      "url": "https://letterboxd.com/film/close-up/"
+    },
+    {
+      "rank": 66,
+      "title": "Spider-Man: Across the Spider-Verse (2023)",
+      "url": "https://letterboxd.com/film/spider-man-across-the-spider-verse/"
+    },
+    {
+      "rank": 67,
+      "title": "A Woman Under the Influence (1974)",
+      "url": "https://letterboxd.com/film/a-woman-under-the-influence/"
+    },
+    {
+      "rank": 68,
+      "title": "A Separation (2011)",
+      "url": "https://letterboxd.com/film/a-separation/"
+    },
+    {
+      "rank": 69,
+      "title": "Princess Mononoke (1997)",
+      "url": "https://letterboxd.com/film/princess-mononoke/"
+    },
+    {
+      "rank": 70,
+      "title": "Fanny and Alexander (1982)",
+      "url": "https://letterboxd.com/film/fanny-and-alexander/"
+    },
+    {
+      "rank": 71,
+      "title": "Do the Right Thing (1989)",
+      "url": "https://letterboxd.com/film/do-the-right-thing/"
+    },
+    {
+      "rank": 72,
+      "title": "Spider-Man: Into the Spider-Verse (2018)",
+      "url": "https://letterboxd.com/film/spider-man-into-the-spider-verse/"
+    },
+    {
+      "rank": 73,
+      "title": "Love Exposure (2008)",
+      "url": "https://letterboxd.com/film/love-exposure/"
+    },
+    {
+      "rank": 74,
+      "title": "The Lord of the Rings: The Fellowship of the Ring (2001)",
+      "url": "https://letterboxd.com/film/the-lord-of-the-rings-the-fellowship-of-the-ring/"
+    },
+    {
+      "rank": 75,
+      "title": "Good Will Hunting (1997)",
+      "url": "https://letterboxd.com/film/good-will-hunting/"
+    },
+    {
+      "rank": 76,
+      "title": "The Handmaiden (2016)",
+      "url": "https://letterboxd.com/film/the-handmaiden/"
+    },
+    {
+      "rank": 77,
+      "title": "Nights of Cabiria (1957)",
+      "url": "https://letterboxd.com/film/nights-of-cabiria/"
+    },
+    {
+      "rank": 78,
+      "title": "Once Upon a Time in the West (1968)",
+      "url": "https://letterboxd.com/film/once-upon-a-time-in-the-west/"
+    },
+    {
+      "rank": 79,
+      "title": "Paper Moon (1973)",
+      "url": "https://letterboxd.com/film/paper-moon/"
+    },
+    {
+      "rank": 80,
+      "title": "An Elephant Sitting Still (2018)",
+      "url": "https://letterboxd.com/film/an-elephant-sitting-still/"
+    },
+    {
+      "rank": 81,
+      "title": "Se7en (1995)",
+      "url": "https://letterboxd.com/film/se7en/"
+    },
+    {
+      "rank": 82,
+      "title": "Stalker (1979)",
+      "url": "https://letterboxd.com/film/stalker/"
+    },
+    {
+      "rank": 83,
+      "title": "Wildwood (2026)",
+      "url": "https://letterboxd.com/film/wildwood-2026/"
+    },
+    {
+      "rank": 84,
+      "title": "Red Beard (1965)",
+      "url": "https://letterboxd.com/film/red-beard/"
+    },
+    {
+      "rank": 85,
+      "title": "Z (1969)",
+      "url": "https://letterboxd.com/film/z/"
+    },
+    {
+      "rank": 86,
+      "title": "Apur Sansar (1959)",
+      "url": "https://letterboxd.com/film/apur-sansar/"
+    },
+    {
+      "rank": 87,
+      "title": "Dune: Part Two (2024)",
+      "url": "https://letterboxd.com/film/dune-part-two/"
+    },
+    {
+      "rank": 88,
+      "title": "Judgment at Nuremberg (1961)",
+      "url": "https://letterboxd.com/film/judgment-at-nuremberg/"
+    },
+    {
+      "rank": 89,
+      "title": "Amadeus (1984)",
+      "url": "https://letterboxd.com/film/amadeus/"
+    },
+    {
+      "rank": 90,
+      "title": "One Flew Over the Cuckoo's Nest (1975)",
+      "url": "https://letterboxd.com/film/one-flew-over-the-cuckoos-nest/"
+    },
+    {
+      "rank": 91,
+      "title": "Perfect Blue (1997)",
+      "url": "https://letterboxd.com/film/perfect-blue/"
+    },
+    {
+      "rank": 92,
+      "title": "How to Make Millions Before Grandma Dies (2024)",
+      "url": "https://letterboxd.com/film/how-to-make-millions-before-grandma-dies/"
+    },
+    {
+      "rank": 93,
+      "title": "In the Mood for Love (2000)",
+      "url": "https://letterboxd.com/film/in-the-mood-for-love/"
+    },
+    {
+      "rank": 94,
+      "title": "Persona (1966)",
+      "url": "https://letterboxd.com/film/persona/"
+    },
+    {
+      "rank": 95,
+      "title": "The Wages of Fear (1953)",
+      "url": "https://letterboxd.com/film/the-wages-of-fear/"
+    },
+    {
+      "rank": 96,
+      "title": "Inglourious Basterds (2009)",
+      "url": "https://letterboxd.com/film/inglourious-basterds/"
+    },
+    {
+      "rank": 97,
+      "title": "All About Eve (1950)",
+      "url": "https://letterboxd.com/film/all-about-eve/"
+    },
+    {
+      "rank": 98,
+      "title": "Howl's Moving Castle (2004)",
+      "url": "https://letterboxd.com/film/howls-moving-castle/"
+    },
+    {
+      "rank": 99,
+      "title": "Where Is the Friend's House? (1987)",
+      "url": "https://letterboxd.com/film/where-is-the-friends-house/"
+    },
+    {
+      "rank": 100,
+      "title": "Scenes from a Marriage (1974)",
+      "url": "https://letterboxd.com/film/scenes-from-a-marriage/"
+    },
+    {
+      "rank": 101,
+      "title": "Rear Window (1954)",
+      "url": "https://letterboxd.com/film/rear-window/"
+    },
+    {
+      "rank": 102,
+      "title": "Satantango (1994)",
+      "url": "https://letterboxd.com/film/satantango/"
+    },
+    {
+      "rank": 103,
+      "title": "Chainsaw Man – The Movie: Reze Arc (2025)",
+      "url": "https://letterboxd.com/film/chainsaw-man-the-movie-reze-arc/"
+    },
+    {
+      "rank": 104,
+      "title": "Dead Poets Society (1989)",
+      "url": "https://letterboxd.com/film/dead-poets-society/"
+    },
+    {
+      "rank": 105,
+      "title": "Oldboy (2003)",
+      "url": "https://letterboxd.com/film/oldboy/"
+    },
+    {
+      "rank": 106,
+      "title": "Twin Peaks: Fire Walk with Me (1992)",
+      "url": "https://letterboxd.com/film/twin-peaks-fire-walk-with-me/"
+    },
+    {
+      "rank": 107,
+      "title": "Paris, Texas (1984)",
+      "url": "https://letterboxd.com/film/paris-texas/"
+    },
+    {
+      "rank": 108,
+      "title": "Central Station (1998)",
+      "url": "https://letterboxd.com/film/central-station/"
+    },
+    {
+      "rank": 109,
+      "title": "It's Such a Beautiful Day (2012)",
+      "url": "https://letterboxd.com/film/its-such-a-beautiful-day/"
+    },
+    {
+      "rank": 110,
+      "title": "Sherlock Jr. (1924)",
+      "url": "https://letterboxd.com/film/sherlock-jr/"
+    },
+    {
+      "rank": 111,
+      "title": "Monster (2023)",
+      "url": "https://letterboxd.com/film/monster-2023/"
+    },
+    {
+      "rank": 112,
+      "title": "The Departed (2006)",
+      "url": "https://letterboxd.com/film/the-departed/"
+    },
+    {
+      "rank": 113,
+      "title": "Singin' in the Rain (1952)",
+      "url": "https://letterboxd.com/film/singin-in-the-rain/"
+    },
+    {
+      "rank": 114,
+      "title": "Raise the Red Lantern (1991)",
+      "url": "https://letterboxd.com/film/raise-the-red-lantern/"
+    },
+    {
+      "rank": 115,
+      "title": "The Thing (1982)",
+      "url": "https://letterboxd.com/film/the-thing/"
+    },
+    {
+      "rank": 116,
+      "title": "Army of Shadows (1969)",
+      "url": "https://letterboxd.com/film/army-of-shadows/"
+    },
+    {
+      "rank": 117,
+      "title": "Django Unchained (2012)",
+      "url": "https://letterboxd.com/film/django-unchained/"
+    },
+    {
+      "rank": 118,
+      "title": "Prisoners (2013)",
+      "url": "https://letterboxd.com/film/prisoners/"
+    },
+    {
+      "rank": 119,
+      "title": "Eternity and a Day (1998)",
+      "url": "https://letterboxd.com/film/eternity-and-a-day/"
+    },
+    {
+      "rank": 120,
+      "title": "All That Jazz (1979)",
+      "url": "https://letterboxd.com/film/all-that-jazz/"
+    },
+    {
+      "rank": 121,
+      "title": "A Man Escaped (1956)",
+      "url": "https://letterboxd.com/film/a-man-escaped/"
+    },
+    {
+      "rank": 122,
+      "title": "Still Walking (2008)",
+      "url": "https://letterboxd.com/film/still-walking/"
+    },
+    {
+      "rank": 123,
+      "title": "The Silence of the Lambs (1991)",
+      "url": "https://letterboxd.com/film/the-silence-of-the-lambs/"
+    },
+    {
+      "rank": 124,
+      "title": "Puella Magi Madoka Magica the Movie Part III: Rebellion (2013)",
+      "url": "https://letterboxd.com/film/puella-magi-madoka-magica-the-movie-part-iii-rebellion/"
+    },
+    {
+      "rank": 125,
+      "title": "A Special Day (1977)",
+      "url": "https://letterboxd.com/film/a-special-day/"
+    },
+    {
+      "rank": 126,
+      "title": "I'm Still Here (2024)",
+      "url": "https://letterboxd.com/film/im-still-here-2024/"
+    },
+    {
+      "rank": 127,
+      "title": "The Odyssey (2026)",
+      "url": "https://letterboxd.com/film/the-odyssey-2026/"
+    },
+    {
+      "rank": 128,
+      "title": "Das Boot (1981)",
+      "url": "https://letterboxd.com/film/das-boot/"
+    },
+    {
+      "rank": 129,
+      "title": "Three Colours: Red (1994)",
+      "url": "https://letterboxd.com/film/three-colours-red/"
+    },
+    {
+      "rank": 130,
+      "title": "To Be or Not to Be (1942)",
+      "url": "https://letterboxd.com/film/to-be-or-not-to-be/"
+    },
+    {
+      "rank": 131,
+      "title": "Ordet (1955)",
+      "url": "https://letterboxd.com/film/ordet/"
+    },
+    {
+      "rank": 132,
+      "title": "The Young Girls of Rochefort (1967)",
+      "url": "https://letterboxd.com/film/the-young-girls-of-rochefort/"
+    },
+    {
+      "rank": 133,
+      "title": "Heat (1995)",
+      "url": "https://letterboxd.com/film/heat-1995/"
+    },
+    {
+      "rank": 134,
+      "title": "The Great Dictator (1940)",
+      "url": "https://letterboxd.com/film/the-great-dictator/"
+    },
+    {
+      "rank": 135,
+      "title": "Perfect Days (2023)",
+      "url": "https://letterboxd.com/film/perfect-days-2023/"
+    },
+    {
+      "rank": 136,
+      "title": "The Celebration (1998)",
+      "url": "https://letterboxd.com/film/the-celebration/"
+    },
+    {
+      "rank": 137,
+      "title": "The Elephant Man (1980)",
+      "url": "https://letterboxd.com/film/the-elephant-man/"
+    },
+    {
+      "rank": 138,
+      "title": "Late Spring (1949)",
+      "url": "https://letterboxd.com/film/late-spring/"
+    },
+    {
+      "rank": 139,
+      "title": "Taste of Cherry (1997)",
+      "url": "https://letterboxd.com/film/taste-of-cherry/"
+    },
+    {
+      "rank": 140,
+      "title": "Rocco and His Brothers (1960)",
+      "url": "https://letterboxd.com/film/rocco-and-his-brothers/"
+    },
+    {
+      "rank": 141,
+      "title": "Mommy (2014)",
+      "url": "https://letterboxd.com/film/mommy-2014/"
+    },
+    {
+      "rank": 142,
+      "title": "Pather Panchali (1955)",
+      "url": "https://letterboxd.com/film/pather-panchali/"
+    },
+    {
+      "rank": 143,
+      "title": "Wild Strawberries (1957)",
+      "url": "https://letterboxd.com/film/wild-strawberries/"
+    },
+    {
+      "rank": 144,
+      "title": "Funeral Parade of Roses (1969)",
+      "url": "https://letterboxd.com/film/funeral-parade-of-roses/"
+    },
+    {
+      "rank": 145,
+      "title": "Brief Encounter (1945)",
+      "url": "https://letterboxd.com/film/brief-encounter/"
+    },
+    {
+      "rank": 146,
+      "title": "Shoplifters (2018)",
+      "url": "https://letterboxd.com/film/shoplifters/"
+    },
+    {
+      "rank": 147,
+      "title": "The Seventh Seal (1957)",
+      "url": "https://letterboxd.com/film/the-seventh-seal/"
+    },
+    {
+      "rank": 148,
+      "title": "Project Hail Mary (2026)",
+      "url": "https://letterboxd.com/film/project-hail-mary/"
+    },
+    {
+      "rank": 149,
+      "title": "The Prestige (2006)",
+      "url": "https://letterboxd.com/film/the-prestige/"
+    },
+    {
+      "rank": 150,
+      "title": "Landscape in the Mist (1988)",
+      "url": "https://letterboxd.com/film/landscape-in-the-mist/"
+    },
+    {
+      "rank": 151,
+      "title": "Dog Day Afternoon (1975)",
+      "url": "https://letterboxd.com/film/dog-day-afternoon/"
+    },
+    {
+      "rank": 152,
+      "title": "City Lights (1931)",
+      "url": "https://letterboxd.com/film/city-lights/"
+    },
+    {
+      "rank": 153,
+      "title": "Before Sunset (2004)",
+      "url": "https://letterboxd.com/film/before-sunset/"
+    },
+    {
+      "rank": 154,
+      "title": "The Green Mile (1999)",
+      "url": "https://letterboxd.com/film/the-green-mile/"
+    },
+    {
+      "rank": 155,
+      "title": "Psycho (1960)",
+      "url": "https://letterboxd.com/film/psycho/"
+    },
+    {
+      "rank": 156,
+      "title": "Mirror (1975)",
+      "url": "https://letterboxd.com/film/mirror/"
+    },
+    {
+      "rank": 157,
+      "title": "Chinatown (1974)",
+      "url": "https://letterboxd.com/film/chinatown/"
+    },
+    {
+      "rank": 158,
+      "title": "Wings of Desire (1987)",
+      "url": "https://letterboxd.com/film/wings-of-desire/"
+    },
+    {
+      "rank": 159,
+      "title": "Fail Safe (1964)",
+      "url": "https://letterboxd.com/film/fail-safe/"
+    },
+    {
+      "rank": 160,
+      "title": "Underground (1995)",
+      "url": "https://letterboxd.com/film/underground-1995/"
+    },
+    {
+      "rank": 161,
+      "title": "No Country for Old Men (2007)",
+      "url": "https://letterboxd.com/film/no-country-for-old-men/"
+    },
+    {
+      "rank": 162,
+      "title": "Sing Sing (2023)",
+      "url": "https://letterboxd.com/film/sing-sing-2023/"
+    },
+    {
+      "rank": 163,
+      "title": "Children of Men (2006)",
+      "url": "https://letterboxd.com/film/children-of-men/"
+    },
+    {
+      "rank": 164,
+      "title": "Song of the Sea (2014)",
+      "url": "https://letterboxd.com/film/song-of-the-sea/"
+    },
+    {
+      "rank": 165,
+      "title": "The Father (2020)",
+      "url": "https://letterboxd.com/film/the-father-2020/"
+    },
+    {
+      "rank": 166,
+      "title": "Yojimbo (1961)",
+      "url": "https://letterboxd.com/film/yojimbo/"
+    },
+    {
+      "rank": 167,
+      "title": "Malcolm X (1992)",
+      "url": "https://letterboxd.com/film/malcolm-x-1992/"
+    },
+    {
+      "rank": 168,
+      "title": "Fantastic Mr. Fox (2009)",
+      "url": "https://letterboxd.com/film/fantastic-mr-fox/"
+    },
+    {
+      "rank": 169,
+      "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)",
+      "url": "https://letterboxd.com/film/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb/"
+    },
+    {
+      "rank": 170,
+      "title": "Tampopo (1985)",
+      "url": "https://letterboxd.com/film/tampopo/"
+    },
+    {
+      "rank": 171,
+      "title": "The Cremator (1969)",
+      "url": "https://letterboxd.com/film/the-cremator/"
+    },
+    {
+      "rank": 172,
+      "title": "The Treasure of the Sierra Madre (1948)",
+      "url": "https://letterboxd.com/film/the-treasure-of-the-sierra-madre/"
+    },
+    {
+      "rank": 173,
+      "title": "Evangelion: 3.0+1.0 Thrice Upon a Time (2021)",
+      "url": "https://letterboxd.com/film/evangelion-3010-thrice-upon-a-time/"
+    },
+    {
+      "rank": 174,
+      "title": "Terminator 2: Judgment Day (1991)",
+      "url": "https://letterboxd.com/film/terminator-2-judgment-day/"
+    },
+    {
+      "rank": 175,
+      "title": "Life, and Nothing More… (1992)",
+      "url": "https://letterboxd.com/film/life-and-nothing-more/"
+    },
+    {
+      "rank": 176,
+      "title": "Samurai Rebellion (1967)",
+      "url": "https://letterboxd.com/film/samurai-rebellion/"
+    },
+    {
+      "rank": 177,
+      "title": "Dersu Uzala (1975)",
+      "url": "https://letterboxd.com/film/dersu-uzala/"
+    },
+    {
+      "rank": 178,
+      "title": "Werckmeister Harmonies (2000)",
+      "url": "https://letterboxd.com/film/werckmeister-harmonies/"
+    },
+    {
+      "rank": 179,
+      "title": "Before Sunrise (1995)",
+      "url": "https://letterboxd.com/film/before-sunrise/"
+    },
+    {
+      "rank": 180,
+      "title": "The Lives of Others (2006)",
+      "url": "https://letterboxd.com/film/the-lives-of-others/"
+    },
+    {
+      "rank": 181,
+      "title": "The 400 Blows (1959)",
+      "url": "https://letterboxd.com/film/the-400-blows/"
+    },
+    {
+      "rank": 182,
+      "title": "Secrets & Lies (1996)",
+      "url": "https://letterboxd.com/film/secrets-lies/"
+    },
+    {
+      "rank": 183,
+      "title": "The Iron Giant (1999)",
+      "url": "https://letterboxd.com/film/the-iron-giant/"
+    },
+    {
+      "rank": 184,
+      "title": "The Hunt (2012)",
+      "url": "https://letterboxd.com/film/the-hunt-2012/"
+    },
+    {
+      "rank": 185,
+      "title": "The Fall (2006)",
+      "url": "https://letterboxd.com/film/the-fall/"
+    },
+    {
+      "rank": 186,
+      "title": "Some Like It Hot (1959)",
+      "url": "https://letterboxd.com/film/some-like-it-hot/"
+    },
+    {
+      "rank": 187,
+      "title": "Look Back (2024)",
+      "url": "https://letterboxd.com/film/look-back-2024/"
+    },
+    {
+      "rank": 188,
+      "title": "Ritual (2000)",
+      "url": "https://letterboxd.com/film/ritual-2000/"
+    },
+    {
+      "rank": 189,
+      "title": "M (1931)",
+      "url": "https://letterboxd.com/film/m/"
+    },
+    {
+      "rank": 190,
+      "title": "Interstella 5555: The 5tory of the 5ecret 5tar 5ystem (2003)",
+      "url": "https://letterboxd.com/film/interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem/"
+    },
+    {
+      "rank": 191,
+      "title": "Opening Night (1977)",
+      "url": "https://letterboxd.com/film/opening-night/"
+    },
+    {
+      "rank": 192,
+      "title": "Casablanca (1942)",
+      "url": "https://letterboxd.com/film/casablanca/"
+    },
+    {
+      "rank": 193,
+      "title": "Cure (1997)",
+      "url": "https://letterboxd.com/film/cure/"
+    },
+    {
+      "rank": 194,
+      "title": "Kizumonogatari Part 3: Reiketsu (2017)",
+      "url": "https://letterboxd.com/film/kizumonogatari-part-3-reiketsu/"
+    },
+    {
+      "rank": 195,
+      "title": "Children of Paradise (1945)",
+      "url": "https://letterboxd.com/film/children-of-paradise/"
+    },
+    {
+      "rank": 196,
+      "title": "The Man Who Shot Liberty Valance (1962)",
+      "url": "https://letterboxd.com/film/the-man-who-shot-liberty-valance/"
+    },
+    {
+      "rank": 197,
+      "title": "Bicycle Thieves (1948)",
+      "url": "https://letterboxd.com/film/bicycle-thieves/"
+    },
+    {
+      "rank": 198,
+      "title": "The Devils (1971)",
+      "url": "https://letterboxd.com/film/the-devils/"
+    },
+    {
+      "rank": 199,
+      "title": "Ace in the Hole (1951)",
+      "url": "https://letterboxd.com/film/ace-in-the-hole/"
+    },
+    {
+      "rank": 200,
+      "title": "The Sacrifice (1986)",
+      "url": "https://letterboxd.com/film/the-sacrifice/"
+    },
+    {
+      "rank": 201,
+      "title": "Akira (1988)",
+      "url": "https://letterboxd.com/film/akira/"
+    },
+    {
+      "rank": 202,
+      "title": "Sorcerer (1977)",
+      "url": "https://letterboxd.com/film/sorcerer/"
+    },
+    {
+      "rank": 203,
+      "title": "We All Loved Each Other So Much (1974)",
+      "url": "https://letterboxd.com/film/we-all-loved-each-other-so-much/"
+    },
+    {
+      "rank": 204,
+      "title": "Fight Club (1999)",
+      "url": "https://letterboxd.com/film/fight-club/"
+    },
+    {
+      "rank": 205,
+      "title": "Mary and Max (2009)",
+      "url": "https://letterboxd.com/film/mary-and-max/"
+    },
+    {
+      "rank": 206,
+      "title": "Chungking Express (1994)",
+      "url": "https://letterboxd.com/film/chungking-express/"
+    },
+    {
+      "rank": 207,
+      "title": "Who's Afraid of Virginia Woolf? (1966)",
+      "url": "https://letterboxd.com/film/whos-afraid-of-virginia-woolf/"
+    },
+    {
+      "rank": 208,
+      "title": "Kamikaze Girls (2004)",
+      "url": "https://letterboxd.com/film/kamikaze-girls/"
+    },
+    {
+      "rank": 209,
+      "title": "A Matter of Life and Death (1946)",
+      "url": "https://letterboxd.com/film/a-matter-of-life-and-death/"
+    },
+    {
+      "rank": 210,
+      "title": "The Holdovers (2023)",
+      "url": "https://letterboxd.com/film/the-holdovers/"
+    },
+    {
+      "rank": 211,
+      "title": "The Tale of The Princess Kaguya (2013)",
+      "url": "https://letterboxd.com/film/the-tale-of-the-princess-kaguya/"
+    },
+    {
+      "rank": 212,
+      "title": "Tokyo Godfathers (2003)",
+      "url": "https://letterboxd.com/film/tokyo-godfathers/"
+    },
+    {
+      "rank": 213,
+      "title": "Saving Private Ryan (1998)",
+      "url": "https://letterboxd.com/film/saving-private-ryan/"
+    },
+    {
+      "rank": 214,
+      "title": "I Swear (2025)",
+      "url": "https://letterboxd.com/film/i-swear/"
+    },
+    {
+      "rank": 215,
+      "title": "La Notte (1961)",
+      "url": "https://letterboxd.com/film/la-notte/"
+    },
+    {
+      "rank": 216,
+      "title": "Network (1976)",
+      "url": "https://letterboxd.com/film/network/"
+    },
+    {
+      "rank": 217,
+      "title": "Rififi (1955)",
+      "url": "https://letterboxd.com/film/rififi/"
+    },
+    {
+      "rank": 218,
+      "title": "The Sound of Music (1965)",
+      "url": "https://letterboxd.com/film/the-sound-of-music/"
+    },
+    {
+      "rank": 219,
+      "title": "Throne of Blood (1957)",
+      "url": "https://letterboxd.com/film/throne-of-blood/"
+    },
+    {
+      "rank": 220,
+      "title": "Aparajito (1956)",
+      "url": "https://letterboxd.com/film/aparajito/"
+    },
+    {
+      "rank": 221,
+      "title": "Better Days (2019)",
+      "url": "https://letterboxd.com/film/better-days-2019/"
+    },
+    {
+      "rank": 222,
+      "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles (1975)",
+      "url": "https://letterboxd.com/film/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/"
+    },
+    {
+      "rank": 223,
+      "title": "Double Indemnity (1944)",
+      "url": "https://letterboxd.com/film/double-indemnity/"
+    },
+    {
+      "rank": 224,
+      "title": "Mulholland Drive (2001)",
+      "url": "https://letterboxd.com/film/mulholland-drive/"
+    },
+    {
+      "rank": 225,
+      "title": "Nostalgia (1983)",
+      "url": "https://letterboxd.com/film/nostalgia-1983/"
+    },
+    {
+      "rank": 226,
+      "title": "The First Slam Dunk (2022)",
+      "url": "https://letterboxd.com/film/the-first-slam-dunk/"
+    },
+    {
+      "rank": 227,
+      "title": "8½ (1963)",
+      "url": "https://letterboxd.com/film/8-half/"
+    },
+    {
+      "rank": 228,
+      "title": "La Dolce Vita (1960)",
+      "url": "https://letterboxd.com/film/la-dolce-vita/"
+    },
+    {
+      "rank": 229,
+      "title": "4 Months, 3 Weeks and 2 Days (2007)",
+      "url": "https://letterboxd.com/film/4-months-3-weeks-and-2-days/"
+    },
+    {
+      "rank": 230,
+      "title": "The Night of the Hunter (1955)",
+      "url": "https://letterboxd.com/film/the-night-of-the-hunter/"
+    },
+    {
+      "rank": 231,
+      "title": "Wolfwalkers (2020)",
+      "url": "https://letterboxd.com/film/wolfwalkers/"
+    },
+    {
+      "rank": 232,
+      "title": "For a Few Dollars More (1965)",
+      "url": "https://letterboxd.com/film/for-a-few-dollars-more/"
+    },
+    {
+      "rank": 233,
+      "title": "A Moment of Innocence (1996)",
+      "url": "https://letterboxd.com/film/a-moment-of-innocence/"
+    },
+    {
+      "rank": 234,
+      "title": "WALL·E (2008)",
+      "url": "https://letterboxd.com/film/walle/"
+    },
+    {
+      "rank": 235,
+      "title": "Il Sorpasso (1962)",
+      "url": "https://letterboxd.com/film/il-sorpasso/"
+    },
+    {
+      "rank": 236,
+      "title": "Ugetsu (1953)",
+      "url": "https://letterboxd.com/film/ugetsu/"
+    },
+    {
+      "rank": 237,
+      "title": "The Best Years of Our Lives (1946)",
+      "url": "https://letterboxd.com/film/the-best-years-of-our-lives/"
+    },
+    {
+      "rank": 238,
+      "title": "The Secret in Their Eyes (2009)",
+      "url": "https://letterboxd.com/film/the-secret-in-their-eyes/"
+    },
+    {
+      "rank": 239,
+      "title": "Meiyazhagan (2024)",
+      "url": "https://letterboxd.com/film/meiyazhagan/"
+    },
+    {
+      "rank": 240,
+      "title": "The Face of Another (1966)",
+      "url": "https://letterboxd.com/film/the-face-of-another/"
+    },
+    {
+      "rank": 241,
+      "title": "The Bridge on the River Kwai (1957)",
+      "url": "https://letterboxd.com/film/the-bridge-on-the-river-kwai/"
+    },
+    {
+      "rank": 242,
+      "title": "Anatomy of a Murder (1959)",
+      "url": "https://letterboxd.com/film/anatomy-of-a-murder/"
+    },
+    {
+      "rank": 243,
+      "title": "Quo Vadis, Aida? (2020)",
+      "url": "https://letterboxd.com/film/quo-vadis-aida/"
+    },
+    {
+      "rank": 244,
+      "title": "Marcel the Shell with Shoes On (2021)",
+      "url": "https://letterboxd.com/film/marcel-the-shell-with-shoes-on-2021/"
+    },
+    {
+      "rank": 245,
+      "title": "Alien (1979)",
+      "url": "https://letterboxd.com/film/alien/"
+    },
+    {
+      "rank": 246,
+      "title": "Vada Chennai (2018)",
+      "url": "https://letterboxd.com/film/vada-chennai/"
+    },
+    {
+      "rank": 247,
+      "title": "Capernaum (2018)",
+      "url": "https://letterboxd.com/film/capernaum/"
+    },
+    {
+      "rank": 248,
+      "title": "Dreams (1990)",
+      "url": "https://letterboxd.com/film/dreams/"
+    },
+    {
+      "rank": 249,
+      "title": "Inception (2010)",
+      "url": "https://letterboxd.com/film/inception/"
+    },
+    {
+      "rank": 250,
+      "title": "Umberto D. (1952)",
+      "url": "https://letterboxd.com/film/umberto-d/"
+    },
+    {
+      "rank": 251,
+      "title": "Macario (1960)",
+      "url": "https://letterboxd.com/film/macario/"
+    },
+    {
+      "rank": 252,
+      "title": "Modern Times (1936)",
+      "url": "https://letterboxd.com/film/modern-times/"
+    },
+    {
+      "rank": 253,
+      "title": "The King of Comedy (1982)",
+      "url": "https://letterboxd.com/film/the-king-of-comedy/"
+    },
+    {
+      "rank": 254,
+      "title": "Turtles Can Fly (2004)",
+      "url": "https://letterboxd.com/film/turtles-can-fly/"
+    },
+    {
+      "rank": 255,
+      "title": "Eternal Sunshine of the Spotless Mind (2004)",
+      "url": "https://letterboxd.com/film/eternal-sunshine-of-the-spotless-mind/"
+    },
+    {
+      "rank": 256,
+      "title": "Your Name. (2016)",
+      "url": "https://letterboxd.com/film/your-name/"
+    },
+    {
+      "rank": 257,
+      "title": "Millennium Actress (2001)",
+      "url": "https://letterboxd.com/film/millennium-actress/"
+    },
+    {
+      "rank": 258,
+      "title": "Children of Heaven (1997)",
+      "url": "https://letterboxd.com/film/children-of-heaven/"
+    },
+    {
+      "rank": 259,
+      "title": "Amour (2012)",
+      "url": "https://letterboxd.com/film/amour/"
+    },
+    {
+      "rank": 260,
+      "title": "A Taxi Driver (2017)",
+      "url": "https://letterboxd.com/film/a-taxi-driver/"
+    },
+    {
+      "rank": 261,
+      "title": "Metropolis (1927)",
+      "url": "https://letterboxd.com/film/metropolis/"
+    },
+    {
+      "rank": 262,
+      "title": "Sweet Smell of Success (1957)",
+      "url": "https://letterboxd.com/film/sweet-smell-of-success/"
+    },
+    {
+      "rank": 263,
+      "title": "Kes (1969)",
+      "url": "https://letterboxd.com/film/kes/"
+    },
+    {
+      "rank": 264,
+      "title": "The Third Man (1949)",
+      "url": "https://letterboxd.com/film/the-third-man/"
+    },
+    {
+      "rank": 265,
+      "title": "Joint Security Area (2000)",
+      "url": "https://letterboxd.com/film/joint-security-area/"
+    },
+    {
+      "rank": 266,
+      "title": "The Grand Budapest Hotel (2014)",
+      "url": "https://letterboxd.com/film/the-grand-budapest-hotel/"
+    },
+    {
+      "rank": 267,
+      "title": "Fireworks (1997)",
+      "url": "https://letterboxd.com/film/fireworks-1997/"
+    },
+    {
+      "rank": 268,
+      "title": "Everything Everywhere All at Once (2022)",
+      "url": "https://letterboxd.com/film/everything-everywhere-all-at-once/"
+    },
+    {
+      "rank": 269,
+      "title": "Manila in the Claws of Light (1975)",
+      "url": "https://letterboxd.com/film/manila-in-the-claws-of-light/"
+    },
+    {
+      "rank": 270,
+      "title": "Hope (2013)",
+      "url": "https://letterboxd.com/film/hope-2013/"
+    },
+    {
+      "rank": 271,
+      "title": "Poetry (2010)",
+      "url": "https://letterboxd.com/film/poetry/"
+    },
+    {
+      "rank": 272,
+      "title": "A Silent Voice: The Movie (2016)",
+      "url": "https://letterboxd.com/film/a-silent-voice-the-movie/"
+    },
+    {
+      "rank": 273,
+      "title": "Magnolia (1999)",
+      "url": "https://letterboxd.com/film/magnolia/"
+    },
+    {
+      "rank": 274,
+      "title": "Thelma & Louise (1991)",
+      "url": "https://letterboxd.com/film/thelma-louise/"
+    },
+    {
+      "rank": 275,
+      "title": "Trainspotting (1996)",
+      "url": "https://letterboxd.com/film/trainspotting/"
+    },
+    {
+      "rank": 276,
+      "title": "The Life and Death of Colonel Blimp (1943)",
+      "url": "https://letterboxd.com/film/the-life-and-death-of-colonel-blimp/"
+    },
+    {
+      "rank": 277,
+      "title": "Winter Light (1963)",
+      "url": "https://letterboxd.com/film/winter-light/"
+    },
+    {
+      "rank": 278,
+      "title": "Persepolis (2007)",
+      "url": "https://letterboxd.com/film/persepolis/"
+    },
+    {
+      "rank": 279,
+      "title": "To Live (1994)",
+      "url": "https://letterboxd.com/film/to-live/"
+    },
+    {
+      "rank": 280,
+      "title": "Son of the White Mare (1981)",
+      "url": "https://letterboxd.com/film/son-of-the-white-mare/"
+    },
+    {
+      "rank": 281,
+      "title": "Mysterious Skin (2004)",
+      "url": "https://letterboxd.com/film/mysterious-skin/"
+    },
+    {
+      "rank": 282,
+      "title": "Kagemusha (1980)",
+      "url": "https://letterboxd.com/film/kagemusha/"
+    },
+    {
+      "rank": 283,
+      "title": "The Lion King (1994)",
+      "url": "https://letterboxd.com/film/the-lion-king/"
+    },
+    {
+      "rank": 284,
+      "title": "2001: A Space Odyssey (1968)",
+      "url": "https://letterboxd.com/film/2001-a-space-odyssey/"
+    },
+    {
+      "rank": 285,
+      "title": "Pulp Fiction (1994)",
+      "url": "https://letterboxd.com/film/pulp-fiction/"
+    },
+    {
+      "rank": 286,
+      "title": "Ratatouille (2007)",
+      "url": "https://letterboxd.com/film/ratatouille/"
+    },
+    {
+      "rank": 287,
+      "title": "Dancer in the Dark (2000)",
+      "url": "https://letterboxd.com/film/dancer-in-the-dark/"
+    },
+    {
+      "rank": 288,
+      "title": "The Deer Hunter (1978)",
+      "url": "https://letterboxd.com/film/the-deer-hunter/"
+    },
+    {
+      "rank": 289,
+      "title": "Casino (1995)",
+      "url": "https://letterboxd.com/film/casino/"
+    },
+    {
+      "rank": 290,
+      "title": "Once Upon a Time in America (1984)",
+      "url": "https://letterboxd.com/film/once-upon-a-time-in-america/"
+    },
+    {
+      "rank": 291,
+      "title": "Little Miss Sunshine (2006)",
+      "url": "https://letterboxd.com/film/little-miss-sunshine/"
+    },
+    {
+      "rank": 292,
+      "title": "Kill Bill: Vol. 1 (2003)",
+      "url": "https://letterboxd.com/film/kill-bill-vol-1/"
+    },
+    {
+      "rank": 293,
+      "title": "Kwaidan (1964)",
+      "url": "https://letterboxd.com/film/kwaidan/"
+    },
+    {
+      "rank": 294,
+      "title": "The Truman Show (1998)",
+      "url": "https://letterboxd.com/film/the-truman-show/"
+    },
+    {
+      "rank": 295,
+      "title": "Azur & Asmar: The Princes' Quest (2006)",
+      "url": "https://letterboxd.com/film/azur-asmar-the-princes-quest/"
+    },
+    {
+      "rank": 296,
+      "title": "All of a Sudden (2026)",
+      "url": "https://letterboxd.com/film/all-of-a-sudden-2026/"
+    },
+    {
+      "rank": 297,
+      "title": "The Lovers on the Bridge (1991)",
+      "url": "https://letterboxd.com/film/the-lovers-on-the-bridge/"
+    },
+    {
+      "rank": 298,
+      "title": "They Shoot Horses, Don't They? (1969)",
+      "url": "https://letterboxd.com/film/they-shoot-horses-dont-they/"
+    },
+    {
+      "rank": 299,
+      "title": "Solaris (1972)",
+      "url": "https://letterboxd.com/film/solaris/"
+    },
+    {
+      "rank": 300,
+      "title": "Back to the Future (1985)",
+      "url": "https://letterboxd.com/film/back-to-the-future/"
+    },
+    {
+      "rank": 301,
+      "title": "Sound of Metal (2019)",
+      "url": "https://letterboxd.com/film/sound-of-metal/"
+    },
+    {
+      "rank": 302,
+      "title": "Big World (2024)",
+      "url": "https://letterboxd.com/film/big-world-2024/"
+    },
+    {
+      "rank": 303,
+      "title": "In the Name of the Father (1993)",
+      "url": "https://letterboxd.com/film/in-the-name-of-the-father-1993/"
+    },
+    {
+      "rank": 304,
+      "title": "Time of the Gypsies (1988)",
+      "url": "https://letterboxd.com/film/time-of-the-gypsies/"
+    },
+    {
+      "rank": 305,
+      "title": "HAIKYU!! The Dumpster Battle (2024)",
+      "url": "https://letterboxd.com/film/haikyu-the-dumpster-battle/"
+    },
+    {
+      "rank": 306,
+      "title": "Embrace of the Serpent (2015)",
+      "url": "https://letterboxd.com/film/embrace-of-the-serpent/"
+    },
+    {
+      "rank": 307,
+      "title": "The Young and the Damned (1950)",
+      "url": "https://letterboxd.com/film/the-young-and-the-damned/"
+    },
+    {
+      "rank": 308,
+      "title": "Le Samouraï (1967)",
+      "url": "https://letterboxd.com/film/le-samourai/"
+    },
+    {
+      "rank": 309,
+      "title": "Vertigo (1958)",
+      "url": "https://letterboxd.com/film/vertigo/"
+    },
+    {
+      "rank": 310,
+      "title": "The Shining (1980)",
+      "url": "https://letterboxd.com/film/the-shining/"
+    },
+    {
+      "rank": 311,
+      "title": "Unforgiven (1992)",
+      "url": "https://letterboxd.com/film/unforgiven/"
+    },
+    {
+      "rank": 312,
+      "title": "An Autumn Afternoon (1962)",
+      "url": "https://letterboxd.com/film/an-autumn-afternoon/"
+    },
+    {
+      "rank": 313,
+      "title": "Kumbalangi Nights (2019)",
+      "url": "https://letterboxd.com/film/kumbalangi-nights/"
+    },
+    {
+      "rank": 314,
+      "title": "Happy Together (1997)",
+      "url": "https://letterboxd.com/film/happy-together-1997/"
+    },
+    {
+      "rank": 315,
+      "title": "The Children's Hour (1961)",
+      "url": "https://letterboxd.com/film/the-childrens-hour/"
+    },
+    {
+      "rank": 316,
+      "title": "The Sting (1973)",
+      "url": "https://letterboxd.com/film/the-sting/"
+    },
+    {
+      "rank": 317,
+      "title": "Aftersun (2022)",
+      "url": "https://letterboxd.com/film/aftersun/"
+    },
+    {
+      "rank": 318,
+      "title": "The Taste of Tea (2004)",
+      "url": "https://letterboxd.com/film/the-taste-of-tea/"
+    },
+    {
+      "rank": 319,
+      "title": "The Wild Robot (2024)",
+      "url": "https://letterboxd.com/film/the-wild-robot/"
+    },
+    {
+      "rank": 320,
+      "title": "Drive My Car (2021)",
+      "url": "https://letterboxd.com/film/drive-my-car/"
+    },
+    {
+      "rank": 321,
+      "title": "Baththa (2026)",
+      "url": "https://letterboxd.com/film/baththa/"
+    },
+    {
+      "rank": 322,
+      "title": "The White Ribbon (2009)",
+      "url": "https://letterboxd.com/film/the-white-ribbon/"
+    },
+    {
+      "rank": 323,
+      "title": "Linda Linda Linda (2005)",
+      "url": "https://letterboxd.com/film/linda-linda-linda/"
+    },
+    {
+      "rank": 324,
+      "title": "Shame (1968)",
+      "url": "https://letterboxd.com/film/shame/"
+    },
+    {
+      "rank": 325,
+      "title": "Rosemary's Baby (1968)",
+      "url": "https://letterboxd.com/film/rosemarys-baby/"
+    },
+    {
+      "rank": 326,
+      "title": "Gladiator (2000)",
+      "url": "https://letterboxd.com/film/gladiator-2000/"
+    },
+    {
+      "rank": 327,
+      "title": "Comrades, Almost a Love Story (1996)",
+      "url": "https://letterboxd.com/film/comrades-almost-a-love-story/"
+    },
+    {
+      "rank": 328,
+      "title": "RRR (2022)",
+      "url": "https://letterboxd.com/film/rrr/"
+    },
+    {
+      "rank": 329,
+      "title": "Shutter Island (2010)",
+      "url": "https://letterboxd.com/film/shutter-island/"
+    },
+    {
+      "rank": 330,
+      "title": "Le Cercle Rouge (1970)",
+      "url": "https://letterboxd.com/film/le-cercle-rouge/"
+    },
+    {
+      "rank": 331,
+      "title": "Roman Holiday (1953)",
+      "url": "https://letterboxd.com/film/roman-holiday/"
+    },
+    {
+      "rank": 332,
+      "title": "Night Is Short, Walk On Girl (2017)",
+      "url": "https://letterboxd.com/film/night-is-short-walk-on-girl/"
+    },
+    {
+      "rank": 333,
+      "title": "Investigation of a Citizen Above Suspicion (1970)",
+      "url": "https://letterboxd.com/film/investigation-of-a-citizen-above-suspicion/"
+    },
+    {
+      "rank": 334,
+      "title": "Raging Bull (1980)",
+      "url": "https://letterboxd.com/film/raging-bull/"
+    },
+    {
+      "rank": 335,
+      "title": "Y Tu Mamá También (2001)",
+      "url": "https://letterboxd.com/film/y-tu-mama-tambien/"
+    },
+    {
+      "rank": 336,
+      "title": "Boogie Nights (1997)",
+      "url": "https://letterboxd.com/film/boogie-nights/"
+    },
+    {
+      "rank": 337,
+      "title": "Gangs of Wasseypur – Part 2 (2012)",
+      "url": "https://letterboxd.com/film/gangs-of-wasseypur-part-2/"
+    },
+    {
+      "rank": 338,
+      "title": "Nirvanna the Band the Show the Movie (2025)",
+      "url": "https://letterboxd.com/film/nirvanna-the-band-the-show-the-movie/"
+    },
+    {
+      "rank": 339,
+      "title": "The Last Picture Show (1971)",
+      "url": "https://letterboxd.com/film/the-last-picture-show/"
+    },
+    {
+      "rank": 340,
+      "title": "Au Revoir les Enfants (1987)",
+      "url": "https://letterboxd.com/film/au-revoir-les-enfants/"
+    },
+    {
+      "rank": 341,
+      "title": "Coraline (2009)",
+      "url": "https://letterboxd.com/film/coraline/"
+    },
+    {
+      "rank": 342,
+      "title": "Nausicaä of the Valley of the Wind (1984)",
+      "url": "https://letterboxd.com/film/nausicaa-of-the-valley-of-the-wind/"
+    },
+    {
+      "rank": 343,
+      "title": "Amélie (2001)",
+      "url": "https://letterboxd.com/film/amelie/"
+    },
+    {
+      "rank": 344,
+      "title": "A Face in the Crowd (1957)",
+      "url": "https://letterboxd.com/film/a-face-in-the-crowd/"
+    },
+    {
+      "rank": 345,
+      "title": "The Straight Story (1999)",
+      "url": "https://letterboxd.com/film/the-straight-story/"
+    },
+    {
+      "rank": 346,
+      "title": "Vampire Hunter D: Bloodlust (2000)",
+      "url": "https://letterboxd.com/film/vampire-hunter-d-bloodlust/"
+    },
+    {
+      "rank": 347,
+      "title": "Like Father, Like Son (2013)",
+      "url": "https://letterboxd.com/film/like-father-like-son-2013/"
+    },
+    {
+      "rank": 348,
+      "title": "Cria! (1976)",
+      "url": "https://letterboxd.com/film/cria/"
+    },
+    {
+      "rank": 349,
+      "title": "Joyland (2022)",
+      "url": "https://letterboxd.com/film/joyland-2022/"
+    },
+    {
+      "rank": 350,
+      "title": "The Man Who Sleeps (1974)",
+      "url": "https://letterboxd.com/film/the-man-who-sleeps/"
+    },
+    {
+      "rank": 351,
+      "title": "Hard Boiled (1992)",
+      "url": "https://letterboxd.com/film/hard-boiled/"
+    },
+    {
+      "rank": 352,
+      "title": "North by Northwest (1959)",
+      "url": "https://letterboxd.com/film/north-by-northwest/"
+    },
+    {
+      "rank": 353,
+      "title": "What Ever Happened to Baby Jane? (1962)",
+      "url": "https://letterboxd.com/film/what-ever-happened-to-baby-jane/"
+    },
+    {
+      "rank": 354,
+      "title": "Stand by Me (1986)",
+      "url": "https://letterboxd.com/film/stand-by-me/"
+    },
+    {
+      "rank": 355,
+      "title": "Hamnet (2025)",
+      "url": "https://letterboxd.com/film/hamnet/"
+    },
+    {
+      "rank": 356,
+      "title": "Moonlight (2016)",
+      "url": "https://letterboxd.com/film/moonlight-2016/"
+    },
+    {
+      "rank": 357,
+      "title": "Little Women (2019)",
+      "url": "https://letterboxd.com/film/little-women-2019/"
+    },
+    {
+      "rank": 358,
+      "title": "All About My Mother (1999)",
+      "url": "https://letterboxd.com/film/all-about-my-mother/"
+    },
+    {
+      "rank": 359,
+      "title": "Good Morning (1959)",
+      "url": "https://letterboxd.com/film/good-morning/"
+    },
+    {
+      "rank": 360,
+      "title": "Klaus (2019)",
+      "url": "https://letterboxd.com/film/klaus/"
+    },
+    {
+      "rank": 361,
+      "title": "Threads (1984)",
+      "url": "https://letterboxd.com/film/threads/"
+    },
+    {
+      "rank": 362,
+      "title": "Full Metal Jacket (1987)",
+      "url": "https://letterboxd.com/film/full-metal-jacket/"
+    },
+    {
+      "rank": 363,
+      "title": "My Neighbor Totoro (1988)",
+      "url": "https://letterboxd.com/film/my-neighbor-totoro/"
+    },
+    {
+      "rank": 364,
+      "title": "The Turin Horse (2011)",
+      "url": "https://letterboxd.com/film/the-turin-horse/"
+    },
+    {
+      "rank": 365,
+      "title": "The Conformist (1970)",
+      "url": "https://letterboxd.com/film/the-conformist/"
+    },
+    {
+      "rank": 366,
+      "title": "Grand Illusion (1937)",
+      "url": "https://letterboxd.com/film/grand-illusion/"
+    },
+    {
+      "rank": 367,
+      "title": "The Kid (1921)",
+      "url": "https://letterboxd.com/film/the-kid/"
+    },
+    {
+      "rank": 368,
+      "title": "Ivan's Childhood (1962)",
+      "url": "https://letterboxd.com/film/ivans-childhood/"
+    },
+    {
+      "rank": 369,
+      "title": "Diabolique (1955)",
+      "url": "https://letterboxd.com/film/diabolique-1955/"
+    },
+    {
+      "rank": 370,
+      "title": "Whisper of the Heart (1995)",
+      "url": "https://letterboxd.com/film/whisper-of-the-heart/"
+    },
+    {
+      "rank": 371,
+      "title": "My Life as a Zucchini (2016)",
+      "url": "https://letterboxd.com/film/my-life-as-a-zucchini/"
+    },
+    {
+      "rank": 372,
+      "title": "Amores Perros (2000)",
+      "url": "https://letterboxd.com/film/amores-perros/"
+    },
+    {
+      "rank": 373,
+      "title": "All the President's Men (1976)",
+      "url": "https://letterboxd.com/film/all-the-presidents-men/"
+    },
+    {
+      "rank": 374,
+      "title": "Tokyo Sonata (2008)",
+      "url": "https://letterboxd.com/film/tokyo-sonata/"
+    },
+    {
+      "rank": 375,
+      "title": "Winter Sleep (2014)",
+      "url": "https://letterboxd.com/film/winter-sleep/"
+    },
+    {
+      "rank": 376,
+      "title": "Forrest Gump (1994)",
+      "url": "https://letterboxd.com/film/forrest-gump/"
+    },
+    {
+      "rank": 377,
+      "title": "PlayTime (1967)",
+      "url": "https://letterboxd.com/film/playtime/"
+    },
+    {
+      "rank": 378,
+      "title": "Ernest & Celestine (2012)",
+      "url": "https://letterboxd.com/film/ernest-celestine/"
+    },
+    {
+      "rank": 379,
+      "title": "It Happened One Night (1934)",
+      "url": "https://letterboxd.com/film/it-happened-one-night/"
+    },
+    {
+      "rank": 380,
+      "title": "The Long Goodbye (1973)",
+      "url": "https://letterboxd.com/film/the-long-goodbye/"
+    },
+    {
+      "rank": 381,
+      "title": "Rashomon (1950)",
+      "url": "https://letterboxd.com/film/rashomon/"
+    },
+    {
+      "rank": 382,
+      "title": "3 Idiots (2009)",
+      "url": "https://letterboxd.com/film/3-idiots/"
+    },
+    {
+      "rank": 383,
+      "title": "Blue Giant (2023)",
+      "url": "https://letterboxd.com/film/blue-giant/"
+    },
+    {
+      "rank": 384,
+      "title": "Citizen Kane (1941)",
+      "url": "https://letterboxd.com/film/citizen-kane/"
+    },
+    {
+      "rank": 385,
+      "title": "Mind Game (2004)",
+      "url": "https://letterboxd.com/film/mind-game/"
+    },
+    {
+      "rank": 386,
+      "title": "Pixote (1980)",
+      "url": "https://letterboxd.com/film/pixote/"
+    },
+    {
+      "rank": 387,
+      "title": "All Quiet on the Western Front (1930)",
+      "url": "https://letterboxd.com/film/all-quiet-on-the-western-front/"
+    },
+    {
+      "rank": 388,
+      "title": "A Prophet (2009)",
+      "url": "https://letterboxd.com/film/a-prophet/"
+    },
+    {
+      "rank": 389,
+      "title": "Memoir of a Snail (2024)",
+      "url": "https://letterboxd.com/film/memoir-of-a-snail/"
+    },
+    {
+      "rank": 390,
+      "title": "Lilya 4-ever (2002)",
+      "url": "https://letterboxd.com/film/lilya-4-ever/"
+    },
+    {
+      "rank": 391,
+      "title": "The Matrix (1999)",
+      "url": "https://letterboxd.com/film/the-matrix/"
+    },
+    {
+      "rank": 392,
+      "title": "Memento (2000)",
+      "url": "https://letterboxd.com/film/memento/"
+    },
+    {
+      "rank": 393,
+      "title": "Dogville (2003)",
+      "url": "https://letterboxd.com/film/dogville/"
+    },
+    {
+      "rank": 394,
+      "title": "The Shop Around the Corner (1940)",
+      "url": "https://letterboxd.com/film/the-shop-around-the-corner/"
+    },
+    {
+      "rank": 395,
+      "title": "Cabaret (1972)",
+      "url": "https://letterboxd.com/film/cabaret/"
+    },
+    {
+      "rank": 396,
+      "title": "Silenced (2011)",
+      "url": "https://letterboxd.com/film/silenced/"
+    },
+    {
+      "rank": 397,
+      "title": "Carandiru (2003)",
+      "url": "https://letterboxd.com/film/carandiru/"
+    },
+    {
+      "rank": 398,
+      "title": "Mulan (1998)",
+      "url": "https://letterboxd.com/film/mulan/"
+    },
+    {
+      "rank": 399,
+      "title": "Céline and Julie Go Boating (1974)",
+      "url": "https://letterboxd.com/film/celine-and-julie-go-boating/"
+    },
+    {
+      "rank": 400,
+      "title": "The Grapes of Wrath (1940)",
+      "url": "https://letterboxd.com/film/the-grapes-of-wrath/"
+    },
+    {
+      "rank": 401,
+      "title": "The Cook, the Thief, His Wife & Her Lover (1989)",
+      "url": "https://letterboxd.com/film/the-cook-the-thief-his-wife-her-lover/"
+    },
+    {
+      "rank": 402,
+      "title": "12 Years a Slave (2013)",
+      "url": "https://letterboxd.com/film/12-years-a-slave/"
+    },
+    {
+      "rank": 403,
+      "title": "Day for Night (1973)",
+      "url": "https://letterboxd.com/film/day-for-night/"
+    },
+    {
+      "rank": 404,
+      "title": "The General (1926)",
+      "url": "https://letterboxd.com/film/the-general/"
+    },
+    {
+      "rank": 405,
+      "title": "In a Lonely Place (1950)",
+      "url": "https://letterboxd.com/film/in-a-lonely-place/"
+    },
+    {
+      "rank": 406,
+      "title": "Cléo from 5 to 7 (1962)",
+      "url": "https://letterboxd.com/film/cleo-from-5-to-7/"
+    },
+    {
+      "rank": 407,
+      "title": "Cries and Whispers (1972)",
+      "url": "https://letterboxd.com/film/cries-and-whispers/"
+    },
+    {
+      "rank": 408,
+      "title": "The Killer (1989)",
+      "url": "https://letterboxd.com/film/the-killer/"
+    },
+    {
+      "rank": 409,
+      "title": "A Dog's Will (2000)",
+      "url": "https://letterboxd.com/film/a-dogs-will/"
+    },
+    {
+      "rank": 410,
+      "title": "Mother (2009)",
+      "url": "https://letterboxd.com/film/mother-2009/"
+    },
+    {
+      "rank": 411,
+      "title": "American History X (1998)",
+      "url": "https://letterboxd.com/film/american-history-x/"
+    },
+    {
+      "rank": 412,
+      "title": "Iron Boy (2026)",
+      "url": "https://letterboxd.com/film/iron-boy/"
+    },
+    {
+      "rank": 413,
+      "title": "Ali: Fear Eats the Soul (1974)",
+      "url": "https://letterboxd.com/film/ali-fear-eats-the-soul/"
+    },
+    {
+      "rank": 414,
+      "title": "Short Term 12 (2013)",
+      "url": "https://letterboxd.com/film/short-term-12-2013/"
+    },
+    {
+      "rank": 415,
+      "title": "To Wong Foo, Thanks for Everything! Julie Newmar (1995)",
+      "url": "https://letterboxd.com/film/to-wong-foo-thanks-for-everything-julie-newmar/"
+    },
+    {
+      "rank": 416,
+      "title": "All About Lily Chou-Chou (2001)",
+      "url": "https://letterboxd.com/film/all-about-lily-chou-chou/"
+    },
+    {
+      "rank": 417,
+      "title": "Touch of Evil (1958)",
+      "url": "https://letterboxd.com/film/touch-of-evil/"
+    },
+    {
+      "rank": 418,
+      "title": "Butch Cassidy and the Sundance Kid (1969)",
+      "url": "https://letterboxd.com/film/butch-cassidy-and-the-sundance-kid/"
+    },
+    {
+      "rank": 419,
+      "title": "Who Killed Captain Alex? (2010)",
+      "url": "https://letterboxd.com/film/who-killed-captain-alex/"
+    },
+    {
+      "rank": 420,
+      "title": "Black Swan (2010)",
+      "url": "https://letterboxd.com/film/black-swan/"
+    },
+    {
+      "rank": 421,
+      "title": "The Great Escape (1963)",
+      "url": "https://letterboxd.com/film/the-great-escape/"
+    },
+    {
+      "rank": 422,
+      "title": "Through the Olive Trees (1994)",
+      "url": "https://letterboxd.com/film/through-the-olive-trees/"
+    },
+    {
+      "rank": 423,
+      "title": "Sunrise: A Song of Two Humans (1927)",
+      "url": "https://letterboxd.com/film/sunrise-a-song-of-two-humans/"
+    },
+    {
+      "rank": 424,
+      "title": "A Bronx Tale (1993)",
+      "url": "https://letterboxd.com/film/a-bronx-tale/"
+    },
+    {
+      "rank": 425,
+      "title": "Rome, Open City (1945)",
+      "url": "https://letterboxd.com/film/rome-open-city/"
+    },
+    {
+      "rank": 426,
+      "title": "Güeros (2014)",
+      "url": "https://letterboxd.com/film/gueros/"
+    },
+    {
+      "rank": 427,
+      "title": "Love Streams (1984)",
+      "url": "https://letterboxd.com/film/love-streams/"
+    },
+    {
+      "rank": 428,
+      "title": "Phantom Thread (2017)",
+      "url": "https://letterboxd.com/film/phantom-thread/"
+    },
+    {
+      "rank": 429,
+      "title": "The Green Ray (1986)",
+      "url": "https://letterboxd.com/film/the-green-ray/"
+    },
+    {
+      "rank": 430,
+      "title": "Spring, Summer, Fall, Winter... and Spring (2003)",
+      "url": "https://letterboxd.com/film/spring-summer-fall-winter-and-spring/"
+    },
+    {
+      "rank": 431,
+      "title": "Mad Max: Fury Road (2015)",
+      "url": "https://letterboxd.com/film/mad-max-fury-road/"
+    },
+    {
+      "rank": 432,
+      "title": "The Fire Within (1963)",
+      "url": "https://letterboxd.com/film/the-fire-within/"
+    },
+    {
+      "rank": 433,
+      "title": "Brokeback Mountain (2005)",
+      "url": "https://letterboxd.com/film/brokeback-mountain/"
+    },
+    {
+      "rank": 434,
+      "title": "Rio Bravo (1959)",
+      "url": "https://letterboxd.com/film/rio-bravo/"
+    },
+    {
+      "rank": 435,
+      "title": "Cool Hand Luke (1967)",
+      "url": "https://letterboxd.com/film/cool-hand-luke/"
+    },
+    {
+      "rank": 436,
+      "title": "The Ox-Bow Incident (1943)",
+      "url": "https://letterboxd.com/film/the-ox-bow-incident/"
+    },
+    {
+      "rank": 437,
+      "title": "Pride (2014)",
+      "url": "https://letterboxd.com/film/pride-2014/"
+    },
+    {
+      "rank": 438,
+      "title": "How to Train Your Dragon (2010)",
+      "url": "https://letterboxd.com/film/how-to-train-your-dragon/"
+    },
+    {
+      "rank": 439,
+      "title": "Star Wars (1977)",
+      "url": "https://letterboxd.com/film/star-wars/"
+    },
+    {
+      "rank": 440,
+      "title": "Pink Floyd: The Wall (1982)",
+      "url": "https://letterboxd.com/film/pink-floyd-the-wall/"
+    },
+    {
+      "rank": 441,
+      "title": "Dorothy (2026)",
+      "url": "https://letterboxd.com/film/dorothy-2026/"
+    },
+    {
+      "rank": 442,
+      "title": "My Father's Shadow (2025)",
+      "url": "https://letterboxd.com/film/my-fathers-shadow-2025/"
+    },
+    {
+      "rank": 443,
+      "title": "Dial M for Murder (1954)",
+      "url": "https://letterboxd.com/film/dial-m-for-murder/"
+    },
+    {
+      "rank": 444,
+      "title": "Society of the Snow (2023)",
+      "url": "https://letterboxd.com/film/society-of-the-snow/"
+    },
+    {
+      "rank": 445,
+      "title": "La Strada (1954)",
+      "url": "https://letterboxd.com/film/la-strada/"
+    },
+    {
+      "rank": 446,
+      "title": "After Life (1998)",
+      "url": "https://letterboxd.com/film/after-life/"
+    },
+    {
+      "rank": 447,
+      "title": "The Intouchables (2011)",
+      "url": "https://letterboxd.com/film/the-intouchables/"
+    },
+    {
+      "rank": 448,
+      "title": "The Second Mother (2015)",
+      "url": "https://letterboxd.com/film/the-second-mother/"
+    },
+    {
+      "rank": 449,
+      "title": "Mustang (2015)",
+      "url": "https://letterboxd.com/film/mustang-2015/"
+    },
+    {
+      "rank": 450,
+      "title": "Fallen Angels (1995)",
+      "url": "https://letterboxd.com/film/fallen-angels/"
+    },
+    {
+      "rank": 451,
+      "title": "On the Waterfront (1954)",
+      "url": "https://letterboxd.com/film/on-the-waterfront/"
+    },
+    {
+      "rank": 452,
+      "title": "I Dream in Another Language (2017)",
+      "url": "https://letterboxd.com/film/i-dream-in-another-language/"
+    },
+    {
+      "rank": 453,
+      "title": "12th Fail (2023)",
+      "url": "https://letterboxd.com/film/12th-fail/"
+    },
+    {
+      "rank": 454,
+      "title": "Scarface (1983)",
+      "url": "https://letterboxd.com/film/scarface-1983/"
+    },
+    {
+      "rank": 455,
+      "title": "The Return (2003)",
+      "url": "https://letterboxd.com/film/the-return/"
+    },
+    {
+      "rank": 456,
+      "title": "Past Lives (2023)",
+      "url": "https://letterboxd.com/film/past-lives/"
+    },
+    {
+      "rank": 457,
+      "title": "Love Letter (1995)",
+      "url": "https://letterboxd.com/film/love-letter/"
+    },
+    {
+      "rank": 458,
+      "title": "Raiders of the Lost Ark (1981)",
+      "url": "https://letterboxd.com/film/raiders-of-the-lost-ark/"
+    },
+    {
+      "rank": 459,
+      "title": "Phantom of the Paradise (1974)",
+      "url": "https://letterboxd.com/film/phantom-of-the-paradise/"
+    },
+    {
+      "rank": 460,
+      "title": "Pan's Labyrinth (2006)",
+      "url": "https://letterboxd.com/film/pans-labyrinth/"
+    },
+    {
+      "rank": 461,
+      "title": "Mr. Smith Goes to Washington (1939)",
+      "url": "https://letterboxd.com/film/mr-smith-goes-to-washington/"
+    },
+    {
+      "rank": 462,
+      "title": "Nashville (1975)",
+      "url": "https://letterboxd.com/film/nashville/"
+    },
+    {
+      "rank": 463,
+      "title": "The Great Silence (1968)",
+      "url": "https://letterboxd.com/film/the-great-silence/"
+    },
+    {
+      "rank": 464,
+      "title": "The Virgin Spring (1960)",
+      "url": "https://letterboxd.com/film/the-virgin-spring/"
+    },
+    {
+      "rank": 465,
+      "title": "Oppenheimer (2023)",
+      "url": "https://letterboxd.com/film/oppenheimer-2023/"
+    },
+    {
+      "rank": 466,
+      "title": "Synecdoche, New York (2008)",
+      "url": "https://letterboxd.com/film/synecdoche-new-york/"
+    },
+    {
+      "rank": 467,
+      "title": "Harry Potter and the Prisoner of Azkaban (2004)",
+      "url": "https://letterboxd.com/film/harry-potter-and-the-prisoner-of-azkaban/"
+    },
+    {
+      "rank": 468,
+      "title": "Punishment Park (1971)",
+      "url": "https://letterboxd.com/film/punishment-park/"
+    },
+    {
+      "rank": 469,
+      "title": "Sentimental Value (2025)",
+      "url": "https://letterboxd.com/film/sentimental-value-2025/"
+    },
+    {
+      "rank": 470,
+      "title": "Midnight Cowboy (1969)",
+      "url": "https://letterboxd.com/film/midnight-cowboy/"
+    },
+    {
+      "rank": 471,
+      "title": "Redline (2009)",
+      "url": "https://letterboxd.com/film/redline/"
+    },
+    {
+      "rank": 472,
+      "title": "Wild Horse Nine (2026)",
+      "url": "https://letterboxd.com/film/wild-horse-nine/"
+    },
+    {
+      "rank": 473,
+      "title": "Monty Python and the Holy Grail (1975)",
+      "url": "https://letterboxd.com/film/monty-python-and-the-holy-grail/"
+    },
+    {
+      "rank": 474,
+      "title": "Le Bonheur (1965)",
+      "url": "https://letterboxd.com/film/happiness-1965/"
+    },
+    {
+      "rank": 475,
+      "title": "Possible Love (2026)",
+      "url": "https://letterboxd.com/film/possible-love/"
+    },
+    {
+      "rank": 476,
+      "title": "The Spirit of the Beehive (1973)",
+      "url": "https://letterboxd.com/film/the-spirit-of-the-beehive/"
+    },
+    {
+      "rank": 477,
+      "title": "There's Still Tomorrow (2023)",
+      "url": "https://letterboxd.com/film/theres-still-tomorrow/"
+    },
+    {
+      "rank": 478,
+      "title": "Kiki's Delivery Service (1989)",
+      "url": "https://letterboxd.com/film/kikis-delivery-service/"
+    },
+    {
+      "rank": 479,
+      "title": "Pride & Prejudice (2005)",
+      "url": "https://letterboxd.com/film/pride-prejudice/"
+    },
+    {
+      "rank": 480,
+      "title": "The Hidden Fortress (1958)",
+      "url": "https://letterboxd.com/film/the-hidden-fortress/"
+    },
+    {
+      "rank": 481,
+      "title": "Eat Drink Man Woman (1994)",
+      "url": "https://letterboxd.com/film/eat-drink-man-woman/"
+    },
+    {
+      "rank": 482,
+      "title": "Seconds (1966)",
+      "url": "https://letterboxd.com/film/seconds/"
+    },
+    {
+      "rank": 483,
+      "title": "My Night at Maud's (1969)",
+      "url": "https://letterboxd.com/film/my-night-at-mauds/"
+    },
+    {
+      "rank": 484,
+      "title": "Billy Elliot (2000)",
+      "url": "https://letterboxd.com/film/billy-elliot/"
+    },
+    {
+      "rank": 485,
+      "title": "Falling in Love Like in Movies (2023)",
+      "url": "https://letterboxd.com/film/falling-in-love-like-in-movies/"
+    },
+    {
+      "rank": 486,
+      "title": "The Umbrellas of Cherbourg (1964)",
+      "url": "https://letterboxd.com/film/the-umbrellas-of-cherbourg/"
+    },
+    {
+      "rank": 487,
+      "title": "The Sword of Doom (1966)",
+      "url": "https://letterboxd.com/film/the-sword-of-doom/"
+    },
+    {
+      "rank": 488,
+      "title": "Arrival (2016)",
+      "url": "https://letterboxd.com/film/arrival-2016/"
+    },
+    {
+      "rank": 489,
+      "title": "Alice in the Cities (1974)",
+      "url": "https://letterboxd.com/film/alice-in-the-cities/"
+    },
+    {
+      "rank": 490,
+      "title": "The Exterminating Angel (1962)",
+      "url": "https://letterboxd.com/film/the-exterminating-angel/"
+    },
+    {
+      "rank": 491,
+      "title": "Through a Glass Darkly (1961)",
+      "url": "https://letterboxd.com/film/through-a-glass-darkly/"
+    },
+    {
+      "rank": 492,
+      "title": "Rope (1948)",
+      "url": "https://letterboxd.com/film/rope/"
+    },
+    {
+      "rank": 493,
+      "title": "The Leopard (1963)",
+      "url": "https://letterboxd.com/film/the-leopard/"
+    },
+    {
+      "rank": 494,
+      "title": "The Wolf House (2018)",
+      "url": "https://letterboxd.com/film/the-wolf-house/"
+    },
+    {
+      "rank": 495,
+      "title": "Princes and Princesses (2000)",
+      "url": "https://letterboxd.com/film/princes-and-princesses/"
+    },
+    {
+      "rank": 496,
+      "title": "Sanjuro (1962)",
+      "url": "https://letterboxd.com/film/sanjuro/"
+    },
+    {
+      "rank": 497,
+      "title": "Hiroshima Mon Amour (1959)",
+      "url": "https://letterboxd.com/film/hiroshima-mon-amour/"
+    },
+    {
+      "rank": 498,
+      "title": "Us and Them (2018)",
+      "url": "https://letterboxd.com/film/us-and-them-2018/"
+    },
+    {
+      "rank": 499,
+      "title": "The Conversation (1974)",
+      "url": "https://letterboxd.com/film/the-conversation/"
+    },
+    {
+      "rank": 500,
+      "title": "Hundreds of Beavers (2022)",
+      "url": "https://letterboxd.com/film/hundreds-of-beavers/"
+    }
+  ]
+}
