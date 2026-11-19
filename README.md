@@ -1,9 +1,29 @@
 # Movie Roulette for macOS
 
-**500 great films. One spin. Your next movie night, sorted.**
+<table>
+<tr>
+<td valign="top" width="60%">
 
-A macOS desktop app that picks a random film from [Letterboxd’s official Top 500 Films](https://letterboxd.com/official/list/letterboxds-top-500-films/). Spin the wheel, hear the roulette clicks slow down, and discover what to watch next.
+<strong>500 great films. One spin. Your next movie night, sorted.</strong>
 
+<p>A macOS desktop app that picks a random film from
+<a href="https://letterboxd.com/official/list/letterboxds-top-500-films/">Letterboxd’s official Top 500 Films</a>.</p>
+
+<p>Spin the wheel, hear the roulette clicks slow down, and discover what to watch next.</p>
+
+<ul>
+<li>Equal odds for all 500 films</li>
+<li>Roulette sound with mute controls</li>
+<li>Offline support and automatic list updates</li>
+<li>No API key required</li>
+</ul>
+
+</td>
+<td valign="top" width="40%">
+<img src="assets/screenshot.png" alt="Movie Roulette for macOS" width="300">
+</td>
+</tr>
+</table>
 ## Features
 
 - **Animated roulette wheel** with a dark cinema theme and 500 rank slots.
