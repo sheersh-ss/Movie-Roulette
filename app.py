@@ -1,10 +1,9 @@
-"""macOS desktop roulette; selection is independent of animation."""
+"""Cross-platform desktop roulette; selection is independent of animation."""
 import math
 import re
 from urllib.parse import urlencode
 import secrets
 import sys
-import subprocess
 from pathlib import Path
 from PySide6.QtCore import Qt, QThread, Signal, QTimer, QElapsedTimer, QUrl, QVariantAnimation, QEasingCurve, QRectF, QEvent
 from PySide6.QtGui import QColor, QPainter, QPen, QFont, QDesktopServices, QPixmap
@@ -12,6 +11,8 @@ from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, Q
 from data import fetch, fallback, save
 from cinejoy import resolve
 from details import fetch_details
+from platform_support import font_family
+from PySide6.QtMultimedia import QSoundEffect
 
 
 def cinejoy_search_url(title):
@@ -21,31 +22,21 @@ def cinejoy_search_url(title):
 
 
 class SpinSound:
-    """Play bundled audio with macOS's built-in player; never block the GUI."""
+    """Qt plays the bundled WAV asynchronously on macOS, Windows, and Linux."""
     def __init__(self):
-        self.process = None
         self.enabled = True
+        self.effect = QSoundEffect()
+        self.effect.setSource(QUrl.fromLocalFile(str(Path(__file__).with_name('spin.wav'))))
+        self.effect.setVolume(.65)
+        self.effect.setLoopCount(1)
 
     def play(self):
         self.stop()
-        if self.enabled and sys.platform == 'darwin':
-            try:
-                self.process = subprocess.Popen(
-                    ['/usr/bin/afplay', str(Path(__file__).with_name('spin.wav'))],
-                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-            except OSError:
-                self.process = None  # A missing audio device/player cannot break a spin.
+        if self.enabled:
+            self.effect.play()
 
     def stop(self):
-        if self.process is not None:
-            if self.process.poll() is None:
-                try:
-                    self.process.terminate()
-                except ProcessLookupError:
-                    pass
-            # poll reaps completed processes; Popen retains terminated ones until
-            # the next poll/cleanup without waiting on the GUI thread.
-            self.process.poll()
+        self.effect.stop()
 
 
 class DetailsFetcher(QThread):
@@ -122,16 +113,16 @@ class Wheel(QWidget):
             if i % 25 == 0:
                 p.setPen(QColor('#b8c6d6'))
                 x, y = math.cos(a)*r*.68, math.sin(a)*r*.68
-                p.setFont(QFont('Helvetica Neue', 10))
+                p.setFont(QFont(font_family(), 10))
                 p.drawText(int(x)-18, int(y)-9, 36, 18, Qt.AlignmentFlag.AlignCenter, str(i+1))
         p.setBrush(QColor('#0e1721'))
         p.setPen(QPen(QColor('#2c4353'), 2))
         p.drawEllipse(-75, -75, 150, 150)
         p.setPen(QColor('#5ce4bf'))
-        p.setFont(QFont('Helvetica Neue', 25, QFont.Weight.Bold))
+        p.setFont(QFont(font_family(), 25, QFont.Weight.Bold))
         rank = int(((-self.angle) % 360) / .72) % 500 + 1
         p.drawText(-70, -30, 140, 60, Qt.AlignmentFlag.AlignCenter, f'{rank:03d}')
-        p.setFont(QFont('Helvetica Neue', 9))
+        p.setFont(QFont(font_family(), 9))
         p.setPen(QColor('#92a3b5'))
         p.drawText(-70, 28, 140, 20, Qt.AlignmentFlag.AlignCenter, 'LETTERBOXD 500')
         p.setPen(QPen(QColor('#ffffff'), 4))
@@ -169,7 +160,7 @@ class SoundToggle(QPushButton):
         p = QPainter(self)
         p.setRenderHint(QPainter.RenderHint.Antialiasing)
         p.setPen(QColor('#b8c9d8'))
-        p.setFont(QFont('Helvetica Neue', 11))
+        p.setFont(QFont(font_family(), 11))
         p.drawText(0, 0, 62, 34, Qt.AlignmentFlag.AlignVCenter, 'Sound')
         p.setPen(Qt.PenStyle.NoPen)
         off, on = QColor('#354759'), QColor('#5ce4bf')
@@ -514,7 +505,7 @@ def main():
     app.setApplicationName('Movie Roulette')
     app.setOrganizationName('Movie Roulette')
     stylesheet = Path(__file__).with_name('styles.qss')
-    app.setStyleSheet(stylesheet.read_text(encoding='utf-8'))
+    app.setStyleSheet(stylesheet.read_text(encoding='utf-8').replace('@APP_FONT@', font_family()))
     window = Window()
     window.show()
     sys.exit(app.exec())

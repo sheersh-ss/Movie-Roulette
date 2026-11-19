@@ -9,9 +9,10 @@ from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
+from platform_support import cache_path
 
 SOURCE = 'https://letterboxd.com/official/list/letterboxds-top-500-films/'
-CACHE = Path.home() / 'Library/Application Support/Movie Roulette/top500.json'
+CACHE = cache_path()
 BUNDLED = Path(__file__).with_name('snapshot.json')
 
 

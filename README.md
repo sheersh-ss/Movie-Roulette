@@ -1,52 +1,64 @@
-# Movie Roulette for macOS
+# Movie Roulette
 
 **500 great films. One spin.**
 
-Find your next watch with an animated roulette wheel featuring [Letterboxd’s Top 500 films](https://letterboxd.com/official/list/letterboxds-top-500-films/), spinning sound, offline support, and in-app movie details.
+Pick your next watch from [Letterboxd’s Top 500 films](https://letterboxd.com/official/list/letterboxds-top-500-films/) with an animated wheel, spinning sound, offline support, and movie details.
 
 <table>
-<tr>
-<th>Roulette</th>
-<th>Movie details</th>
-</tr>
+<tr><th>Roulette</th><th>Movie details</th></tr>
 <tr>
 <td align="center" width="50%"><img src="assets/screenshot.png" alt="Movie Roulette wheel" width="300"></td>
-<td align="center" width="50%"><img src="assets/details.png" alt="Movie details with poster, synopsis, and rating" width="300"></td>
+<td align="center" width="50%"><img src="assets/details.png" alt="Movie poster, synopsis, and rating" width="300"></td>
 </tr>
 </table>
 
 ## Run
 
-Requires **macOS 12+** and **Python 3.10–3.14**. From the project folder:
+Install **Python 3.10–3.14**, then use your system’s launcher. First-time setup requires internet access.
+
+| System | Launcher |
+| --- | --- |
+| macOS 12+ | Double-click `Launch Movie Roulette.command` |
+| Windows | Double-click `Launch Movie Roulette.bat` |
+| Linux | Run `sh "Launch Movie Roulette.sh"` |
+
+Or set up manually from the project folder:
+
+### macOS / Linux
 
 ```sh
 python3 -m venv .venv
-source .venv/bin/activate
-python3 -m pip install -r requirements.txt
-python3 -m playwright install chromium
-python3 app.py
-```
-
-For later launches, double-click **Launch Movie Roulette.command**, or run:
-
-```sh
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m playwright install chromium
 .venv/bin/python app.py
 ```
 
+On Linux, use `playwright install --with-deps chromium` if browser system libraries are missing. Python venv and Qt system packages may also be required.
+
+### Windows
+
+```powershell
+py -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+.venv\Scripts\python.exe -m playwright install chromium
+.venv\Scripts\python.exe app.py
+```
+
+If `py` is unavailable, use `python` for the first command.
+
 ## Use
 
-Click **Spin for a film**, then open its Letterboxd page or choose **Find film**. Use the sound toggle in the top-right corner to mute at any time.
+- **Spin for a film:** every film has an equal chance; repeats are possible.
+- **Movie details:** see the poster, synopsis, and Letterboxd rating after a spin.
+- **Find film:** open a Cinejoy title/year match or fall back to its search page.
+- **Sound:** toggle audio in the top-right corner.
 
-Cinejoy opens a unique title/year match, with a search-page fallback. It does not start playback automatically. Live matching still needs verification on a normal Mac session.
+The film list refreshes automatically, with an offline snapshot as fallback. New movie details and Cinejoy searches need internet access. Playback does not start automatically.
 
-The app refreshes Letterboxd’s public list in the background and falls back to a saved cache or bundled snapshot when offline. Each film has a **1-in-500 chance** per spin; repeats are possible.
+Windows and Linux have not been tested on real devices. Linux may need additional desktop/audio libraries.
 
-Open **Movie details** after a spin to fetch the poster, synopsis, and Letterboxd community rating. Details are kept for the current session; an internet connection is required for new film details.
+## Customize
 
-## Tests
-
-```sh
-.venv/bin/python -m unittest discover -s tests -v
-```
+Edit `styles.qss` and restart. Keep all source files and assets together; create a separate `.venv` on each system.
 
 Independent project; not affiliated with Letterboxd or Cinejoy.

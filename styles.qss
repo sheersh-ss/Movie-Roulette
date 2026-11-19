@@ -62,7 +62,7 @@ QLabel#poster {
 QWidget {
     background: #0c141e;
     color: #aab9c9;
-    font-family: "Helvetica Neue";
+    font-family: "@APP_FONT@";
     font-size: 14px;
 }
 
