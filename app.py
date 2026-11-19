@@ -1,13 +1,23 @@
 """macOS desktop roulette; selection is independent of animation."""
 import math
+import re
+from urllib.parse import urlencode
 import secrets
 import sys
 import subprocess
 from pathlib import Path
-from PySide6.QtCore import Qt, QThread, Signal, QTimer, QElapsedTimer, QUrl
-from PySide6.QtGui import QColor, QPainter, QPen, QFont, QDesktopServices
-from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton
+from PySide6.QtCore import Qt, QThread, Signal, QTimer, QElapsedTimer, QUrl, QVariantAnimation, QEasingCurve, QRectF, QEvent
+from PySide6.QtGui import QColor, QPainter, QPen, QFont, QDesktopServices, QPixmap
+from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QTabWidget, QScrollArea
 from data import fetch, fallback, save
+from cinejoy import resolve
+from details import fetch_details
+
+
+def cinejoy_search_url(title):
+    # Letterboxd display names end in a release year; search by the film title.
+    title = re.sub(r'\s+\(\d{4}\)$', '', title).strip()
+    return 'https://cinejoy.pk/search?' + urlencode({'q': title})
 
 
 class SpinSound:
@@ -36,6 +46,37 @@ class SpinSound:
             # poll reaps completed processes; Popen retains terminated ones until
             # the next poll/cleanup without waiting on the GUI thread.
             self.process.poll()
+
+
+class DetailsFetcher(QThread):
+    ready = Signal(str, object)
+    failed = Signal(str, str)
+
+    def __init__(self, url, parent=None):
+        super().__init__(parent)
+        self.url = url
+
+    def run(self):
+        try:
+            self.ready.emit(self.url, fetch_details(self.url))
+        except Exception as error:
+            self.failed.emit(self.url, str(error))
+
+
+class CinejoyFinder(QThread):
+    ready = Signal(str, str)
+
+    def __init__(self, title, parent=None):
+        super().__init__(parent)
+        self.title = title
+
+    def run(self):
+        try:
+            url, message = resolve(self.title)
+        except Exception:
+            url = cinejoy_search_url(self.title)
+            message = 'Background search unavailable. Opening search instead. See README for browser setup.'
+        self.ready.emit(url, message)
 
 
 class Fetcher(QThread):
@@ -98,6 +139,53 @@ class Wheel(QWidget):
         p.end()
 
 
+class SoundToggle(QPushButton):
+    """Keyboard-accessible sound switch: checked means sound is enabled."""
+    def __init__(self):
+        super().__init__('Sound')
+        self.setCheckable(True)
+        self.setChecked(True)
+        self.setFixedSize(120, 34)
+        self.position = 1.0
+        self.slide = QVariantAnimation(self)
+        self.slide.setDuration(180)
+        self.slide.setEasingCurve(QEasingCurve.Type.InOutCubic)
+        self.slide.valueChanged.connect(self.move_knob)
+        self.toggled.connect(self.animate_toggle)
+        self.setAccessibleName('Sound enabled')
+        self.setCursor(Qt.CursorShape.PointingHandCursor)
+
+    def animate_toggle(self, enabled):
+        self.slide.stop()
+        self.slide.setStartValue(self.position)
+        self.slide.setEndValue(1.0 if enabled else 0.0)
+        self.slide.start()
+
+    def move_knob(self, value):
+        self.position = float(value)
+        self.update()
+
+    def paintEvent(self, event):
+        p = QPainter(self)
+        p.setRenderHint(QPainter.RenderHint.Antialiasing)
+        p.setPen(QColor('#b8c9d8'))
+        p.setFont(QFont('Helvetica Neue', 11))
+        p.drawText(0, 0, 62, 34, Qt.AlignmentFlag.AlignVCenter, 'Sound')
+        p.setPen(Qt.PenStyle.NoPen)
+        off, on = QColor('#354759'), QColor('#5ce4bf')
+        blend = lambda a, b: round(a + (b - a) * self.position)
+        track = QColor(blend(off.red(), on.red()), blend(off.green(), on.green()), blend(off.blue(), on.blue()))
+        p.setBrush(track)
+        p.drawRoundedRect(66, 5, 50, 24, 12, 12)
+        p.setBrush(QColor('#e7fff6'))
+        p.drawEllipse(QRectF(70 + 24 * self.position, 9, 16, 16))
+        if self.hasFocus():
+            p.setPen(QPen(QColor('#a9caff'), 1))
+            p.setBrush(Qt.BrushStyle.NoBrush)
+            p.drawRoundedRect(1, 1, 118, 32, 10, 10)
+        p.end()
+
+
 class Window(QWidget):
     def __init__(self):
         super().__init__()
@@ -107,13 +195,32 @@ class Window(QWidget):
         self.snapshot, label = fallback()
         self.pending = None
         self.selected = None
+        self.revealed = False
+        self.detail_jobs = []
+        self.detail_cache = {}
+        self.detail_loading = set()
         self.sound = SpinSound()
         self.timer = QTimer(self)
         self.timer.setInterval(16)
         self.timer.timeout.connect(self.tick)
         self.clock = QElapsedTimer()
         layout = QVBoxLayout(self)
-        layout.setContentsMargins(36, 28, 36, 28)
+        layout.setContentsMargins(30, 20, 30, 24)
+        layout.setSpacing(14)
+        topbar = QHBoxLayout()
+        topbar.addStretch()
+        self.mute = SoundToggle()
+        self.mute.setToolTip('Mute immediately; enabling sound takes effect on the next spin.')
+        self.mute.toggled.connect(lambda enabled: self.toggle_sound(not enabled))
+        topbar.addWidget(self.mute)
+        layout.addLayout(topbar)
+        self.tabs = QTabWidget()
+        layout.addWidget(self.tabs, 1)
+        roulette = QWidget()
+        self.tabs.addTab(roulette, 'Roulette')
+        layout = QVBoxLayout(roulette)
+        layout.setContentsMargins(0, 12, 0, 0)
+        layout.setSpacing(14)
         eyebrow = QLabel('TONIGHT BELONGS TO CHANCE')
         eyebrow.setObjectName('eyebrow')
         layout.addWidget(eyebrow, alignment=Qt.AlignmentFlag.AlignCenter)
@@ -135,32 +242,190 @@ class Window(QWidget):
         self.spin.setMinimumHeight(52)
         self.spin.clicked.connect(self.start_spin)
         self.spin.setEnabled(bool(self.snapshot))
-        layout.addWidget(self.spin)
+        actions = QVBoxLayout()
+        actions.setSpacing(12)
+        actions.addWidget(self.spin)
         row = QHBoxLayout()
-        self.open = QPushButton('Open film on Letterboxd ↗')
+        row.setSpacing(12)
+        self.open = QPushButton('Letterboxd ↗')
+        self.open.setObjectName('letterboxd')
         self.open.setEnabled(False)
         self.open.clicked.connect(lambda: QDesktopServices.openUrl(QUrl(self.selected['url'])))
-        self.refresh = QPushButton('Refresh list')
+        self.finder = None
+        self.cinejoy = QPushButton('Find film ↗')
+        self.cinejoy.setObjectName('findfilm')
+        self.cinejoy.setEnabled(False)
+        self.cinejoy.setToolTip('Search Cinejoy and open a unique title/year match.')
+        self.cinejoy.clicked.connect(self.search_cinejoy)
+        row.addWidget(self.open, 1)
+        row.addWidget(self.cinejoy, 1)
+        actions.addLayout(row)
+        self.refresh = QPushButton('↻  Refresh list')
+        self.refresh.setObjectName('refresh')
         self.refresh.clicked.connect(self.refresh_list)
-        row.addWidget(self.open)
-        row.addWidget(self.refresh)
-        layout.addLayout(row)
-        self.mute = QPushButton('Sound: On')
-        self.mute.setCheckable(True)
-        self.mute.setToolTip('Mute immediately; enabling sound takes effect on the next spin.')
-        self.mute.toggled.connect(self.toggle_sound)
-        layout.addWidget(self.mute)
+        actions.addWidget(self.refresh)
+        layout.addLayout(actions)
+        self.open.setMinimumHeight(44)
+        self.cinejoy.setMinimumHeight(44)
+        self.refresh.setMinimumHeight(40)
+        for button in (self.spin, self.open, self.cinejoy, self.refresh):
+            button.setCursor(Qt.CursorShape.PointingHandCursor)
         self.status = QLabel(self.describe(label))
         self.status.setWordWrap(True)
         self.status.setObjectName('status')
         self.status.setTextInteractionFlags(Qt.TextInteractionFlag.TextSelectableByMouse)
         layout.addWidget(self.status)
         self.worker = None
+        self.build_details_tab()
+        self.tabs.currentChanged.connect(lambda index: self.load_details() if index == 1 else None)
         QTimer.singleShot(0, self.refresh_list)
+
+    def build_details_tab(self):
+        scroll = QScrollArea()
+        self.details_scroll = scroll
+        self.poster_image = QPixmap()
+        scroll.setWidgetResizable(True)
+        scroll.setFrameShape(QScrollArea.Shape.NoFrame)
+        content = QWidget()
+        box = QVBoxLayout(content)
+        box.setContentsMargins(8, 24, 8, 28)
+        box.setSpacing(18)
+        self.detail_title = QLabel('Your next great film awaits.')
+        self.detail_title.setObjectName('detailtitle')
+        self.detail_title.setWordWrap(True)
+        self.detail_title.setTextFormat(Qt.TextFormat.PlainText)
+        box.addWidget(self.detail_title)
+        self.poster = QLabel('Spin the wheel to choose a film.')
+        self.poster.setFixedSize(350, 525)
+        self.poster.setWordWrap(True)
+        self.poster.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.poster.setObjectName('poster')
+        box.addWidget(self.poster, alignment=Qt.AlignmentFlag.AlignHCenter)
+        self.rating = QLabel('Letterboxd rating —')
+        self.rating.setObjectName('rating')
+        box.addWidget(self.rating)
+        self.synopsis = QLabel('The selected film’s synopsis, poster, and community rating will appear here.')
+        self.synopsis.setWordWrap(True)
+        self.synopsis.setObjectName('synopsis')
+        self.synopsis.setTextFormat(Qt.TextFormat.PlainText)
+        self.synopsis.setTextInteractionFlags(Qt.TextInteractionFlag.TextSelectableByMouse)
+        box.addWidget(self.synopsis)
+        self.detail_status = QLabel('Details fetched from Letterboxd when you open this tab.')
+        self.detail_status.setWordWrap(True)
+        box.addWidget(self.detail_status)
+        box.addStretch()
+        scroll.setWidget(content)
+        scroll.viewport().installEventFilter(self)
+        self.tabs.addTab(scroll, 'Movie details')
+
+    def eventFilter(self, watched, event):
+        if hasattr(self, 'details_scroll') and watched is self.details_scroll.viewport() and event.type() == QEvent.Type.Resize:
+            QTimer.singleShot(0, self.size_details)
+        return super().eventFilter(watched, event)
+
+    def size_details(self):
+        available = max(240, self.details_scroll.viewport().width() - 16)
+        width = min(440, max(240, int(available * .74)))
+        width = min(width, available)
+        height = round(width * 1.5)
+        self.poster.setFixedSize(width, height)
+        if not self.poster_image.isNull():
+            ratio = self.devicePixelRatioF()
+            scaled = self.poster_image.scaled(round(width * ratio), round(height * ratio), Qt.AspectRatioMode.KeepAspectRatio, Qt.TransformationMode.SmoothTransformation)
+            scaled.setDevicePixelRatio(ratio)
+            self.poster.setPixmap(scaled)
+        self.synopsis.setMinimumHeight(max(80, self.synopsis.heightForWidth(available)))
+
+    def reset_details(self):
+        self.poster_image = QPixmap()
+        self.detail_title.setText('Let the wheel decide…')
+        self.poster.clear()
+        self.poster.setText('Poster appears after the spin.')
+        self.rating.setText('Letterboxd rating —')
+        self.synopsis.setText('Open this tab after the spin to load the selected film’s details.')
+        self.detail_status.setText('')
+
+    def load_details(self, force=False):
+        if not self.selected or not self.revealed or self.timer.isActive() or getattr(self, '_closing', False):
+            return
+        url = self.selected['url']
+        self.detail_title.setText(self.selected['title'])
+        if url in self.detail_cache and not force:
+            self.show_details(url, self.detail_cache[url])
+            return
+        if url in self.detail_loading:
+            return
+        self.detail_status.setText('Fetching details from Letterboxd…')
+        self.detail_loading.add(url)
+        worker = DetailsFetcher(url, self)
+        self.detail_jobs.append(worker)
+        worker.ready.connect(self.show_details)
+        worker.failed.connect(self.details_failed)
+        worker.finished.connect(lambda: self.detail_loading.discard(url))
+        worker.finished.connect(self.finish_close_if_needed)
+        worker.start()
+
+    def finish_close_if_needed(self):
+        if getattr(self, '_closing', False):
+            self.finish_close()
+
+    def show_details(self, url, info):
+        self.detail_cache[url] = info
+        if not self.selected or not self.revealed or self.selected['url'] != url or self.timer.isActive():
+            return
+        self.poster.clear()
+        pixmap = QPixmap()
+        if info.get('poster') and pixmap.loadFromData(info['poster']):
+            self.poster_image = pixmap
+        else:
+            self.poster_image = QPixmap()
+            self.poster.setText('Poster unavailable')
+        value = info.get('rating')
+        text = f"★ {value} / {info.get('best', 5)}" if value is not None else 'Rating unavailable'
+        count = info.get('count')
+        if count is not None:
+            text += f' · {int(count):,} ratings'
+        self.rating.setText(text)
+        self.synopsis.setText(info.get('synopsis') or 'Synopsis unavailable.')
+        self.size_details()
+        self.detail_status.clear()
+
+    def details_failed(self, url, error):
+        if self.selected and self.revealed and self.selected['url'] == url and not self.timer.isActive():
+            self.detail_status.setText('Could not load details. Check your connection and reopen this tab to retry. ' + error)
+
+    def search_cinejoy(self):
+        if not self.selected or (self.finder and self.finder.isRunning()):
+            return
+        self.cinejoy.setEnabled(False)
+        self.cinejoy.setText('Finding title and year…')
+        self.spin.setEnabled(False)
+        self.finder = CinejoyFinder(self.selected['title'], self)
+        self.finder.ready.connect(self.cinejoy_found)
+        self.finder.finished.connect(self.cinejoy_finished)
+        self.finder.start()
+
+    def cinejoy_found(self, url, message):
+        if self.isVisible():
+            self.status.setText(message)
+            QDesktopServices.openUrl(QUrl(url))
+
+    def cinejoy_finished(self):
+        self.cinejoy.setText('Find film ↗')
+        self.cinejoy.setEnabled(bool(self.selected) and not self.timer.isActive())
+        self.spin.setEnabled(bool(self.snapshot) and not self.timer.isActive())
+        if getattr(self, '_closing', False):
+            self.finish_close()
+
+    def finish_close(self):
+        workers = [self.worker, self.finder] + self.detail_jobs
+        if not any(worker and worker.isRunning() for worker in workers):
+            QApplication.instance().quit()
 
     def toggle_sound(self, muted):
         self.sound.enabled = not muted
-        self.mute.setText('Sound: Off' if muted else 'Sound: On')
+        self.mute.setAccessibleName('Sound disabled' if muted else 'Sound enabled')
+        self.mute.update()
         if muted:
             self.sound.stop()
 
@@ -184,7 +449,7 @@ class Window(QWidget):
             self.pending = (snapshot, note)
             return
         self.snapshot = snapshot
-        self.spin.setEnabled(True)
+        self.spin.setEnabled(not (self.finder and self.finder.isRunning()))
         self.status.setText(self.describe('Live list') + note)
 
     def failed(self, error):
@@ -194,13 +459,16 @@ class Window(QWidget):
         if not self.snapshot or self.timer.isActive():
             return
         index = secrets.randbelow(500)
+        self.revealed = False
         self.selected = dict(self.snapshot['films'][index])
+        self.reset_details()
         self.start_angle = self.wheel.angle
         target = (-(index + .5) * .72) % 360
         self.travel = 360 * 7 + (target - self.start_angle) % 360
         self.spin.setEnabled(False)
         self.refresh.setEnabled(False)
         self.open.setEnabled(False)
+        self.cinejoy.setEnabled(False)
         self.result.setText('Finding your next great film…')
         self.sound.play()
         self.clock.start()
@@ -214,8 +482,12 @@ class Window(QWidget):
             self.timer.stop()
             self.sound.stop()
             self.result.setText(f"#{self.selected['rank']}  ·  {self.selected['title']}")
+            self.revealed = True
+            if self.tabs.currentIndex() == 1:
+                self.load_details()
             self.spin.setEnabled(True)
             self.open.setEnabled(True)
+            self.cinejoy.setEnabled(True)
             self.refresh.setEnabled(not (self.worker and self.worker.isRunning()))
             if self.pending:
                 snapshot, note = self.pending
@@ -225,12 +497,14 @@ class Window(QWidget):
     def closeEvent(self, event):
         self.timer.stop()
         self.sound.stop()
-        # Never destroy a running QThread. Hide immediately, finish bounded fetch,
-        # then let Qt exit. No forced thread termination or partially saved cache.
-        if self.worker and self.worker.isRunning():
+        # Hide immediately, then let both bounded background jobs finish.
+        workers = [worker for worker in [self.worker, self.finder] + self.detail_jobs if worker and worker.isRunning()]
+        if workers:
             event.ignore()
+            self._closing = True
             self.hide()
-            self.worker.finished.connect(QApplication.instance().quit)
+            for worker in workers:
+                worker.finished.connect(self.finish_close)
         else:
             event.accept()
 
@@ -239,18 +513,8 @@ def main():
     app = QApplication(sys.argv)
     app.setApplicationName('Movie Roulette')
     app.setOrganizationName('Movie Roulette')
-    app.setStyleSheet('''
-        QWidget { background: #0c141e; color: #aab9c9; font-family: "Helvetica Neue"; font-size: 14px; }
-        QLabel#heading { color: #f6f8fc; font-size: 38px; font-weight: 700; }
-        QLabel#eyebrow { color: #5ce4bf; font-size: 11px; letter-spacing: 3px; }
-        QLabel#result { color: #f6f8fc; font-size: 23px; font-weight: 600; }
-        QLabel#status { color: #8397aa; font-size: 11px; }
-        QPushButton { background: #182636; border: 1px solid #2b4054; border-radius: 10px; padding: 12px; }
-        QPushButton:hover { background: #24394d; }
-        QPushButton:disabled { color: #526375; }
-        QPushButton#spin { background: #5ce4bf; color: #09251e; font-size: 19px; font-weight: 700; }
-        QPushButton#spin:disabled { background: #27473f; color: #8caaa1; }
-    ''')
+    stylesheet = Path(__file__).with_name('styles.qss')
+    app.setStyleSheet(stylesheet.read_text(encoding='utf-8'))
     window = Window()
     window.show()
     sys.exit(app.exec())

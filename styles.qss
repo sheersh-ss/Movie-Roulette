@@ -1,0 +1,151 @@
+/* Movie Roulette — Qt stylesheet. Restart the app after editing. */
+
+QScrollBar:vertical {
+    background: #0c141e;
+    width: 8px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #355345;
+    min-height: 30px;
+    border-radius: 4px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QTabWidget::pane {
+    border: none;
+}
+
+QTabBar::tab {
+    background: #142330;
+    color: #93aabd;
+    padding: 10px 18px;
+    margin-right: 8px;
+    border-radius: 9px;
+}
+
+QTabBar::tab:selected {
+    background: #234235;
+    color: #b0f5cc;
+}
+
+QLabel#detailtitle {
+    color: #f6f8fc;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+QLabel#synopsis {
+    font-size: 16px;
+    color: #c1d0dc;
+}
+
+QLabel#rating {
+    color: #8bf5ba;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+QLabel#poster {
+    background: #152431;
+    border-radius: 12px;
+}
+
+QWidget {
+    background: #0c141e;
+    color: #aab9c9;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+}
+
+QLabel#heading {
+    color: #f6f8fc;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+QLabel#eyebrow {
+    color: #5ce4bf;
+    font-size: 11px;
+    letter-spacing: 3px;
+}
+
+QLabel#result {
+    color: #f6f8fc;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+QLabel#status {
+    color: #8397aa;
+    font-size: 11px;
+}
+
+QPushButton {
+    background: #182636;
+    border: 1px solid #2b4054;
+    border-radius: 13px;
+    padding: 13px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background: #24394d;
+    border-color: #7b9bb9;
+}
+
+QPushButton:pressed {
+    background: #101f2e;
+    padding-top: 15px;
+    padding-bottom: 11px;
+}
+
+QPushButton:focus {
+    border: 2px solid #d4e6ff;
+}
+
+QPushButton#spin {
+    background: qlineargradient(x1:0,y1:0,x2:1,y2:1,stop:0 #78f2cd,stop:1 #22cbb9);
+    color: #09251e;
+    font-size: 19px;
+    font-weight: 700;
+    border: 1px solid #83f4d6;
+}
+
+QPushButton#spin:hover {
+    background: #8af8d9;
+}
+
+QPushButton#spin:pressed {
+    background: #32bda5;
+}
+
+QPushButton#letterboxd, QPushButton#findfilm, QPushButton#refresh {
+    background: rgba(139, 245, 186, 24);
+    color: #b0f5cc;
+    border: 1px solid rgba(139, 245, 186, 80);
+}
+
+QPushButton#letterboxd:hover, QPushButton#findfilm:hover, QPushButton#refresh:hover {
+    background: rgba(139, 245, 186, 46);
+    color: #d6ffe5;
+    border-color: rgba(139, 245, 186, 150);
+}
+
+QPushButton#letterboxd:pressed, QPushButton#findfilm:pressed, QPushButton#refresh:pressed {
+    background: rgba(139, 245, 186, 65);
+}
+
+QPushButton:disabled, QPushButton#spin:disabled, QPushButton#letterboxd:disabled, QPushButton#findfilm:disabled, QPushButton#refresh:disabled {
+    background: #15212d;
+    color: #627589;
+    border-color: #293847;
+}
